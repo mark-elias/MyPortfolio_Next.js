@@ -7,7 +7,7 @@
         @apply text-lg font-semibold
     }
     main{
-        @apply py-5 px-1 md:px-5
+        @apply py-20 px-1 md:px-5
     }
     h1{
         @apply text-4xl my-4
@@ -21,8 +21,13 @@
     p{
         @apply my-2
     }
+    /* Nav Links */
     nav a{
         @apply hover:text-customPrimary
+    }
+    /* Sections */
+    section{
+        @apply p-5 border-2 border-customPrimary
     }
 }
 
