@@ -17,7 +17,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="bg-white top-0 sticky shadow-lg rounded-b-2xl flex justify-between p-4 items-center">
+    <nav className="bg-white top-0 sticky shadow-lg shadow-zinc-300/50 rounded-b-2xl flex justify-between p-4 items-center">
       <Link href="/" className="text-xl font-bold text-customPrimary">
         marcos elias
       </Link>

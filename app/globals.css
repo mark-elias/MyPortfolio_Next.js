@@ -21,10 +21,6 @@
     p{
         @apply my-2
     }
-    /* Nav Links */
-    nav a{
-        @apply hover:text-customPrimary
-    }
     /* Sections */
     section{
         @apply p-5 my-5
@@ -33,9 +29,9 @@
 
 @layer components{
     .nav-link{
-        @apply flex items-center gap-1
+        @apply flex items-center gap-1 hover:text-customPrimary
     }
     .cool-link{
-        @apply inline-flex items-center gap-1 bg-customPrimary px-2 rounded shadow-lg shadow-customPrimary/50 text-white hover:scale-110 duration-150 ease-in-out
+        @apply inline-flex items-center gap-1 bg-customPrimary px-2 rounded-lg shadow-lg shadow-customPrimary/50 text-white hover:scale-110 duration-150 ease-in-out font-medium
     }
 }
