@@ -25,3 +25,9 @@
         @apply hover:text-customPrimary
     }
 }
+
+@layer components{
+    .nav-link{
+        @apply flex items-center gap-1
+    }
+}

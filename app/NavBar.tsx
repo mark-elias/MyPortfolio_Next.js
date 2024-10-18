@@ -1,4 +1,9 @@
 "use client";
+import { FaDev } from "react-icons/fa";
+import { GiGuitarBassHead } from "react-icons/gi";
+import { TbCertificate } from "react-icons/tb";
+import { FaLaptopCode } from "react-icons/fa";
+import { FaGraduationCap } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import { HiMenu } from "react-icons/hi";
 import { useState } from "react";
@@ -21,36 +26,46 @@ const Navbar = () => {
       {!isOpen ? (
         <HiMenu
           onClick={() => toggleMenu()}
-          className="md:hidden text-2xl hover:scale-110"
+          className="lg:hidden text-2xl hover:scale-110"
         ></HiMenu>
       ) : (
         <IoClose
           onClick={() => toggleMenu()}
-          className="md:hidden text-3xl hover:scale-110"
+          className="lg:hidden text-3xl hover:scale-110"
         ></IoClose>
       )}
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden absolute top-[60px] w-full flex justify-end left-0">
-          <div className="bg-zinc-100 w-[150px] mr-[14px] rounded-b-2xl shadow-inner px-3 py-5">
+        <div className="lg:hidden absolute top-[62px] w-full flex justify-end left-0">
+          <div className="bg-zinc-100 w-[200px] mr-[14px] rounded-b-2xl shadow-inner px-3 py-5 flex flex-col gap-1">
             <div>
               <Link href={"/"} className="nav-link">
+                <GiGuitarBassHead />
                 Skills
               </Link>
             </div>
             <div>
               <Link href={"/"} className="nav-link">
-                Education
-              </Link>
-            </div>
-            <div>
-              <Link href={"/"} className="nav-link">
+                <FaLaptopCode />
                 Projects
               </Link>
             </div>
             <div>
               <Link href={"/"} className="nav-link">
+                <FaGraduationCap />
+                Education
+              </Link>
+            </div>
+            <div>
+              <Link href={"/"} className="nav-link">
+                <FaDev />
+                Experience
+              </Link>
+            </div>
+            <div>
+              <Link href={"/"} className="nav-link">
+                <TbCertificate />
                 Certificates
               </Link>
             </div>
@@ -59,11 +74,27 @@ const Navbar = () => {
       )}
 
       {/* Desktop Links */}
-      <div className="hidden md:flex gap-6">
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/services">Services</Link>
-        <Link href="/contact">Contact</Link>
+      <div className="hidden lg:flex gap-8">
+        <Link href="/" className="nav-link">
+          <GiGuitarBassHead />
+          Skills
+        </Link>
+        <Link href="/about" className="nav-link">
+          <FaLaptopCode />
+          Projects
+        </Link>
+        <Link href="/services" className="nav-link">
+          <FaGraduationCap className="text-lg" />
+          Education
+        </Link>
+        <Link href="/contact" className="nav-link">
+          <FaDev />
+          Experience
+        </Link>
+        <Link href="/contact" className="nav-link">
+          <TbCertificate />
+          Certificates
+        </Link>
       </div>
     </nav>
   );
