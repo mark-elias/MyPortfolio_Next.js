@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+@layer base{
     body{
         @apply text-lg font-semibold
     }
@@ -21,13 +21,7 @@
     p{
         @apply my-2
     }
-}
-
-@layer components{
-    .git-link{
-        @apply bg-customSecondary px-3 py-1 rounded text-white text-sm
-    }
-    .site-link{
-        @apply bg-customPrimary px-3 py-1 rounded text-white text-sm
+    nav a{
+        @apply hover:text-customPrimary
     }
 }
