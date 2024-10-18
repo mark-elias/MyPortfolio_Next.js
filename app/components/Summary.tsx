@@ -2,7 +2,7 @@ import React from "react";
 
 function Summary() {
   return (
-    <section>
+    <section className="border-2 rounded">
       San Diego-based Full Stack Developer with expertise in building
       responsive, user-friendly web applications using React, JavaScript,
       TypeScript, and Node.js. Skilled in developing REST APIs, fetching and

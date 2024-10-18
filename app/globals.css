@@ -7,7 +7,7 @@
         @apply text-lg font-semibold
     }
     main{
-        @apply px-1 md:px-5 h-screen
+        @apply px-1 md:px-5
     }
     h1{
         @apply text-4xl my-4
@@ -27,7 +27,11 @@
     }
     /* Sections */
     section{
-        @apply p-5 border-2 border-customPrimary
+        @apply p-5 my-5
+    }
+    /* regular link */
+    section a{
+        @apply text-customPrimary
     }
 }
 
