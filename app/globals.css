@@ -4,7 +4,7 @@
 
 @layer base {
     body{
-        @apply text-lg font-semibold
+        @apply text-lg font-semibold bg-customDark text-white
     }
     main{
         @apply py-5 px-1 md:px-5
@@ -23,5 +23,8 @@
     }
     a{
         @apply my-2 underline
+    }
+    nav a{
+        @apply no-underline
     }
 }
