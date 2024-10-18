@@ -29,14 +29,13 @@
     section{
         @apply p-5 my-5
     }
-    /* regular link */
-    section a{
-        @apply text-customPrimary
-    }
 }
 
 @layer components{
     .nav-link{
         @apply flex items-center gap-1
+    }
+    .cool-link{
+        @apply inline-flex items-center gap-1 bg-customPrimary px-2 rounded shadow-lg shadow-customPrimary/50 text-white hover:scale-110 duration-150 ease-in-out
     }
 }

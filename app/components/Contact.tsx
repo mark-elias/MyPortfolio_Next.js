@@ -15,12 +15,24 @@ function Contact() {
         <MdEmail></MdEmail>
         mark4elias@gmail.com
       </div>
-      <a href="https://github.com" className="flex items-center gap-1">
-        <FaLinkedin></FaLinkedin>LinkedIn
-      </a>
-      <a href="https://github.com" className="flex items-center gap-1">
-        <FaGithub></FaGithub>GitHub
-      </a>
+      <div>
+        <a
+          href="https://www.linkedin.com/in/marcos-elias-382484226/"
+          target="_blank"
+          className="cool-link"
+        >
+          <FaLinkedin></FaLinkedin>LinkedIn
+        </a>
+      </div>
+      <div>
+        <a
+          href="https://github.com/mark-elias"
+          target="_blank"
+          className="cool-link"
+        >
+          <FaGithub></FaGithub>GitHub
+        </a>
+      </div>
     </section>
   );
 }
