@@ -2,30 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 	•	h1: Usually the largest and most important heading on a page.
-	•	Font Size: text-4xl (or around 2.25rem, ~36px)
-	•	Font Weight: font-bold (700)
-	•	h2: A subheading under h1.
-	•	Font Size: text-3xl (or around 1.875rem, ~30px)
-	•	Font Weight: font-semibold (600)
-	•	h3: A smaller subheading, used to break up sections under h2.
-	•	Font Size: text-2xl (or around 1.5rem, ~24px)
-	•	Font Weight: font-semibold (600)
-	•	p (Paragraph): Used for regular body text, which should be easy to read at different screen sizes.
-	•	Font Size: text-base (or around 1rem, ~16px)
-	•	Font Weight: font-normal (400)
-	•	Link (Anchor <a>): Should generally be styled similarly to paragraphs but often with a little visual distinction like color or underline.
-	•	Font Size: text-base or text-sm (1rem or 0.875rem, 16px or 14px)
-	•	Font Weight: font-medium (500) for slightly more emphasis
-	•	Additional Styling: text-blue-500 for color or hover:underline */
 @layer base {
-    h1{
-        @apply text-4xl font-bold
-    }
     body{
-        @apply 
+        @apply text-lg font-semibold
     }
     main{
         @apply py-5 px-1 md:px-5
+    }
+    h1{
+        @apply text-4xl my-4
+    }
+    h2{
+        @apply text-3xl my-3
+    }
+    h3{
+        @apply text-2xl my-2
+    }
+    p{
+        @apply my-2
+    }
+    a{
+        @apply my-2 underline
     }
 }
