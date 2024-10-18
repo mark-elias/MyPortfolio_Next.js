@@ -12,9 +12,9 @@ import Link from "next/link";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
+  function toggleMenu() {
     setIsOpen(!isOpen);
-  };
+  }
 
   return (
     <nav className="bg-white top-0 sticky shadow-lg rounded-b-2xl flex justify-between p-4 items-center">
