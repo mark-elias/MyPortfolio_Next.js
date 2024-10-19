@@ -10,7 +10,9 @@ const config: Config = {
     extend: {
       colors: {
         customPrimary: "#1E90FF",
-        customSecondary: "#36393B",
+        customSecondary: "#0B132B",
+        customAccent: "#04F06A",
+        customGhostWhite: "#F8F7FF",
       },
     },
   },
