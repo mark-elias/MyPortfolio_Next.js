@@ -4,7 +4,7 @@ function EducationPage() {
   return (
     <section>
       <h1>Education</h1>
-      <div className="border-2 p-5">
+      <div className="cool-div">
         <h2>San Diego State University</h2>
         <h3>Bachelor's degree, Computer Science</h3>
         <p>Graduated May 2023</p>
