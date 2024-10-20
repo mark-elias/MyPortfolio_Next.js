@@ -40,4 +40,10 @@
     .cool-div{
         @apply bg-customSecondary/95 shadow-lg shadow-customSecondary/95 text-white p-5 rounded-lg
     }
+    .project-container{
+        @apply p-5 flex flex-col gap-7
+    }
+    .project-card{
+        @apply border-2 border-red-500 p-5 rounded
+    }
 }
