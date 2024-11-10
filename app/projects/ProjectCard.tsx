@@ -11,8 +11,13 @@ function ProjectCard({ image, alt }: Props) {
     <div className="project-card">
       <h3>project name</h3>
       <div className="flex flex-col lg:flex-row gap-5">
-        <div className="flex gap-3 lg:min-w-[500px] border-2 border-red-400 overflow-auto">
-          <Image src={image} alt={alt} width={500} height={200}></Image>
+        <div className="flex gap-3 w-full h-[100px] md:h-[200px] md:w-[1] lg:h-[200px] border-2 border-red-400 relative">
+          <Image
+            src={image}
+            alt={alt}
+            fill
+            style={{ objectFit: "cover" }}
+          ></Image>
         </div>
         <p className="flex flex-wrap">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad a quam
