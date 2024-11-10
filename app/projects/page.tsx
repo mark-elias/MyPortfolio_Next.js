@@ -1,16 +1,13 @@
 import React from "react";
-import ProjectCard from "../components/ProjectCard";
+import ProjectCard from "./ProjectCard";
 
 function ProjectsPage() {
   return (
     <section>
       <h1>Projects</h1>
       <div className="project-container">
-        <ProjectCard></ProjectCard>
-        <ProjectCard></ProjectCard>
-        <ProjectCard></ProjectCard>
-        <ProjectCard></ProjectCard>
-        <ProjectCard></ProjectCard>
+        <ProjectCard image="/images/expenseTracker_screenshot.png" alt="expense tracker screenshot"></ProjectCard>
+        <ProjectCard image="/images/gameHub_screenshot.png " alt="expense tracker screenshot"></ProjectCard>
       </div>
     </section>
   );

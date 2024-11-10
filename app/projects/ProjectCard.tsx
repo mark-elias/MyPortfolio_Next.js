@@ -1,20 +1,18 @@
+import Image from "next/image";
 import React from "react";
 
-function ProjectCard() {
+interface Props {
+  image: string;
+  alt: string;
+}
+
+function ProjectCard({ image, alt }: Props) {
   return (
     <div className="project-card">
       <h3>project name</h3>
       <div className="flex flex-col lg:flex-row gap-5">
-        <div className="flex gap-3 lg:min-w-[50%] border-2 border-red-400 overflow-auto">
-          <img src="https://placehold.co/200x100/png"></img>
-          <img
-            src="https://placehold.co/75x100/png"
-            className="max-md:hidden"
-          ></img>
-          <img
-            src="https://placehold.co/50x75/png"
-            className="max-md:hidden"
-          ></img>
+        <div className="flex gap-3 lg:min-w-[500px] border-2 border-red-400 overflow-auto">
+          <Image src={image} alt={alt} width={500} height={200}></Image>
         </div>
         <p className="flex flex-wrap">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad a quam
