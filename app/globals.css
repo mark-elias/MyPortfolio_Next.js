@@ -4,19 +4,19 @@
 
 @layer base{
     body{
-        @apply text-lg font-semibold
+        @apply text-[16px] font-semibold
     }
     main{
         @apply px-1 md:px-5
     }
     h1{
-        @apply text-4xl my-4
+        @apply text-[24px] my-4
     }
     h2{
-        @apply text-3xl my-3
+        @apply text-[20px] my-3
     }
     h3{
-        @apply text-2xl my-2
+        @apply text-[18px] my-2
     }
     p{
         @apply my-2
@@ -45,5 +45,8 @@
     }
     .project-card{
         @apply border-2 border-red-500 p-5 rounded
+    }
+    .cool-span{
+        @apply bg-customPrimary rounded-lg shadow-lg shadow-customPrimary/50 text-white px-3 py-1 text-sm
     }
 }
