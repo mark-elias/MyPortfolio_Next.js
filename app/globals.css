@@ -44,9 +44,9 @@
         @apply p-5 flex flex-wrap gap-7
     }
     .project-card{
-        @apply rounded-xl shadow-xl w-[300px]
+        @apply rounded-xl shadow-2xl w-[300px]
     }
-    .cool-span{
-        @apply bg-customPrimary rounded-lg shadow-lg shadow-customPrimary/50 text-white px-3 py-1 text-sm
+    .cool-badge{
+        @apply rounded text-black text-[10px] px-2
     }
 }
