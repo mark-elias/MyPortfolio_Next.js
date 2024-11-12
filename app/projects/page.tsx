@@ -6,8 +6,13 @@ function ProjectsPage() {
     <section>
       <h1>Projects</h1>
       <div className="project-container">
-        <ProjectCard image="/images/expenseTracker_screenshot.png" alt="expense tracker screenshot"></ProjectCard>
-        <ProjectCard image="/images/gameHub_screenshot.png " alt="expense tracker screenshot"></ProjectCard>
+        <ProjectCard image="/images/expenseTracker_screenshot.png" alt="expense tracker screenshot" title="Expense Tracker"></ProjectCard>
+        <ProjectCard image="/images/gameHub_screenshot.png " alt="expense tracker screenshot" title="Game Hub"></ProjectCard>
+        <ProjectCard image="/images/gameHub_screenshot.png " alt="expense tracker screenshot" title="Game Hub"></ProjectCard>
+        <ProjectCard image="/images/gameHub_screenshot.png " alt="expense tracker screenshot" title="Game Hub"></ProjectCard>
+        <ProjectCard image="/images/gameHub_screenshot.png " alt="expense tracker screenshot" title="Game Hub"></ProjectCard>
+        <ProjectCard image="/images/gameHub_screenshot.png " alt="expense tracker screenshot" title="Game Hub"></ProjectCard>
+        <ProjectCard image="/images/gameHub_screenshot.png " alt="expense tracker screenshot" title="Game Hub"></ProjectCard>
       </div>
     </section>
   );

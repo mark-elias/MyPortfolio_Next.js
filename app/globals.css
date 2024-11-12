@@ -41,10 +41,10 @@
         @apply bg-customSecondary/95 shadow-lg shadow-customSecondary/95 text-white p-5 rounded-lg
     }
     .project-container{
-        @apply p-5 flex flex-col gap-7
+        @apply p-5 flex flex-wrap gap-7
     }
     .project-card{
-        @apply border-2 border-red-500 p-5 rounded
+        @apply rounded-xl shadow-xl w-[300px]
     }
     .cool-span{
         @apply bg-customPrimary rounded-lg shadow-lg shadow-customPrimary/50 text-white px-3 py-1 text-sm
