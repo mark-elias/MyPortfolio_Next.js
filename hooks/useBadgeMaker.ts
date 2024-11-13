@@ -9,6 +9,8 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   React: { backgroundColor: "#61DAFB", textColor: "#000000" },
   TypeScript: { backgroundColor: "#007ACC", textColor: "#FFFFFF" },
   Tailwind: { backgroundColor: "#06B6D4", textColor: "#FFFFFF" },
+  JavaScript: { backgroundColor: "#F7DF1E", textColor: "#000000" },
+  CSS: { backgroundColor: "#1572B6", textColor: "#FFFFFF" },
 
   // Full Stack & Back End
   "Next.js": { backgroundColor: "#000000", textColor: "#FFFFFF" },

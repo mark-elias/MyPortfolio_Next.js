@@ -42,10 +42,42 @@ function ProjectsPage() {
           badges={[
             "React",
             "TypeScript",
+            "Chakra UI",
             "REST API's",
             "Axios",
             "Git",
             "Vercel",
+          ]}
+        ></ProjectCard>
+        <ProjectCard
+          image="/images/expenseTracker_screenshot.png"
+          alt="expense tracker project screenshot"
+          title="Expense Tracker"
+          description="Uses React Hook Form and Zod for Validation. You can add, sort, and delete expenses"
+          siteLink="https://react-budgeter-project.vercel.app/"
+          githubLink="https://github.com/mark-elias/Expense_Tracker"
+          badges={[
+            "React",
+            "TypeScript",
+            "Tailwind",
+            "React-Hook-Form",
+            "Zod",
+            "Git",
+            "Vercel",
+          ]}
+        ></ProjectCard>
+        <ProjectCard
+          image="/images/rockPaperScissors_screenshot.png"
+          alt="Rock Paper Scissors project screenshot"
+          title="JS Rock Paper Scissors"
+          description="Used unique border radius styling, added a scoreboard, and ensured mobile/tablet compatibility. JavaScript was fun and challenging; helper functions improved readability."
+          siteLink="https://mark-elias.github.io/RockPaperScissors.github.io/"
+          githubLink="https://github.com/mark-elias/RockPaperScissors.github.io"
+          badges={[
+            "JavaScript",
+            "CSS",
+            "Git",
+            "GitHub Pages",
           ]}
         ></ProjectCard>
       </div>
