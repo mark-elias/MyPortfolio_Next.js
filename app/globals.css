@@ -38,7 +38,7 @@
         @apply flex flex-col p-5 gap-5
     }
     .cool-div{
-        @apply bg-customSecondary/95 shadow-lg shadow-customSecondary/95 text-white p-5 rounded-lg
+        @apply p-5 rounded-lg shadow-xl border-2
     }
     .project-container{
         @apply p-5 flex flex-wrap gap-7

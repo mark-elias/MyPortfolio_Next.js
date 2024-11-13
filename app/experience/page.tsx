@@ -5,7 +5,7 @@ function ExperiencePage() {
     <section>
       <h1>Experience</h1>
       <div className="cool-div-container">
-        <div className="cool-div">
+        {/* <div className="cool-div">
           <h2>Tutor</h2>
           <h3>HeyTutor | August 2023 - Current</h3>
           <ul className="list-disc ml-8">
@@ -23,7 +23,7 @@ function ExperiencePage() {
               tutoring strategies as needed to ensure continuous improvement.
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="cool-div">
           <h2>Front-End Developer Trainee</h2>
           <h3>Kreativstorm | August 2023 - October 2023</h3>

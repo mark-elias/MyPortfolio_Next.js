@@ -11,7 +11,7 @@ function SkillsPage() {
           <BadgeList badgeList={["React", "TypeScript", "Tailwind"]} />
         </div>
         <div className="skill-card">
-          <h2>Full Stack and Back End</h2>
+          <h2>Full Stack & Back End</h2>
           <BadgeList badgeList={["Next.js", "Node.js", "Express.js"]} />
         </div>
         <div className="skill-card">
@@ -53,7 +53,7 @@ function SkillsPage() {
           />
         </div>
       </div>
-      <p className="mt-8">
+      <p className="mt-12">
         👍 Still want to learn these: Stripe payments, Supabase, Shadcn UI,
         React Native, Deno, Bun
       </p>
