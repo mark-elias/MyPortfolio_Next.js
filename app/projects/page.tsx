@@ -7,6 +7,15 @@ function ProjectsPage() {
       <h1>Projects</h1>
       <div className="project-container">
         <ProjectCard
+          image="/images/portfolio_screenshot.png"
+          alt="marcos elias portfolio project screenshot"
+          title="My Portfolio"
+          description="Remade my portfolio with Next.js (previously built with React) so that it is easier to maintain and update. "
+          siteLink="https://myportfolio-nextjs-dusky.vercel.app/"
+          githubLink="https://github.com/mark-elias/MyPortfolio_Next.js"
+          badges={["Next.js", "TypeScript", "Tailwind", "Git", "Vercel"]}
+        ></ProjectCard>
+        <ProjectCard
           image="/images/mernBookstore_screenshot.png"
           alt="mern bookstore project screenshot"
           title="MERN Bookstore"
