@@ -39,7 +39,7 @@ function ProjectCard({
       </div>
       <div className="p-3">
         <h3>{title}</h3>
-        <p>{description}</p>
+        <p className=" text-zinc-700 text-[14px]">{description}</p>
         <div className="flex gap-2">
           <a
             href={siteLink}
