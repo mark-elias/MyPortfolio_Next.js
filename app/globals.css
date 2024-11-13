@@ -47,6 +47,12 @@
         @apply rounded-xl shadow-2xl w-[300px] transition-transform transform hover:scale-105 ease-in-out duration-300
     }
     .cool-badge{
-        @apply rounded text-[10px] px-2
+        @apply rounded text-[12px] px-2
+    }
+    .skills-container{
+        @apply p-5 flex flex-wrap gap-5
+    }
+    .skill-card{
+        @apply shadow-xl p-5 rounded-xl
     }
 }
