@@ -55,4 +55,10 @@
     .skill-card{
         @apply shadow-2xl p-5 rounded-xl
     }
+    .cert-container{
+        @apply flex flex-col p-5 gap-5 lg:flex-row lg:flex-wrap
+    }
+    .cert-card{
+        @apply p-5 rounded-lg shadow-xl md:min-w-[500px]
+    }
 }
