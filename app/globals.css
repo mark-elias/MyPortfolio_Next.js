@@ -47,6 +47,6 @@
         @apply rounded-xl shadow-2xl w-[300px] transition-transform transform hover:scale-105 ease-in-out duration-300
     }
     .cool-badge{
-        @apply rounded text-black text-[10px] px-2
+        @apply rounded text-[10px] px-2
     }
 }
