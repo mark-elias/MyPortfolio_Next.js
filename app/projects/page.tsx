@@ -7,67 +7,30 @@ function ProjectsPage() {
       <h1>Projects</h1>
       <div className="project-container">
         <ProjectCard
-          image="/images/expenseTracker_screenshot.png"
-          alt="expense tracker screenshot"
-          title="Expense Tracker"
-          description="This project is a sample project example description for this project card example testing project card"
-          siteLink="https://google.com"
-          githubLink="https://youtube.com"
-          badges={["React.js", "Next.js", "Git", "Postman", "MongoDB", "mySQL", "PostgreSQL"]}
-        ></ProjectCard>
-        <ProjectCard
-          image="/images/expenseTracker_screenshot.png"
-          alt="expense tracker screenshot"
-          title="Expense Tracker"
-          description="This project is a sample project example description for this project card example testing project card"
-          siteLink="https://google.com"
-          githubLink="https://youtube.com"
-          badges={["React.js", "Next.js", "Git", "Postman", "MongoDB", "mySQL", "PostgreSQL"]}
-        ></ProjectCard>
-        <ProjectCard
-          image="/images/expenseTracker_screenshot.png"
-          alt="expense tracker screenshot"
-          title="Expense Tracker"
-          description="This project is a sample project example description for this project card example testing project card"
-          siteLink="https://google.com"
-          githubLink="https://youtube.com"
-          badges={["React.js", "Next.js", "Git", "Postman", "MongoDB", "mySQL", "PostgreSQL"]}
-        ></ProjectCard>
-        <ProjectCard
-          image="/images/expenseTracker_screenshot.png"
-          alt="expense tracker screenshot"
-          title="Expense Tracker"
-          description="This project is a sample project example description for this project card example testing project card"
-          siteLink="https://google.com"
-          githubLink="https://youtube.com"
-          badges={["React.js", "Next.js", "Git", "Postman", "MongoDB", "mySQL", "PostgreSQL"]}
-        ></ProjectCard>
-        <ProjectCard
-          image="/images/expenseTracker_screenshot.png"
-          alt="expense tracker screenshot"
-          title="Expense Tracker"
-          description="This project is a sample project example description for this project card example testing project card"
-          siteLink="https://google.com"
-          githubLink="https://youtube.com"
-          badges={["React.js", "Next.js", "Git", "Postman", "MongoDB", "mySQL", "PostgreSQL"]}
-        ></ProjectCard>
-        <ProjectCard
-          image="/images/expenseTracker_screenshot.png"
-          alt="expense tracker screenshot"
-          title="Expense Tracker"
-          description="This project is a sample project example description for this project card example testing project card"
-          siteLink="https://google.com"
-          githubLink="https://youtube.com"
-          badges={["React.js", "Next.js", "Git", "Postman", "MongoDB", "mySQL", "PostgreSQL"]}
-        ></ProjectCard>
-        <ProjectCard
-          image="/images/expenseTracker_screenshot.png"
-          alt="expense tracker screenshot"
-          title="Expense Tracker"
-          description="This project is a sample project example description for this project card example testing project card"
-          siteLink="https://google.com"
-          githubLink="https://youtube.com"
-          badges={["React.js", "Next.js", "Git", "Postman", "MongoDB", "mySQL", "PostgreSQL"]}
+          image="/images/mernBookstore_screenshot.png"
+          alt="mern bookstore screenshot"
+          title="MERN Bookstore"
+          description="MERN stack project with CRUD operations, validation, TypeScript, and TanStack Query"
+          siteLink="https://mern-bookstore-olive.vercel.app/"
+          githubLink="https://github.com/mark-elias/MERN_Bookstore"
+          badges={[
+            "MongoDB",
+            "Express.js",
+            "React",
+            "Node.js",
+            "TypeScript",
+            "Git",
+            "REST API's",
+            "API Development",
+            "TanStack Query",
+            "React-Hook-Form",
+            "Zod",
+            "Joi",
+            "Tailwind",
+            "Mongoose",
+            "Vercel",
+            "Render",
+          ]}
         ></ProjectCard>
       </div>
     </section>
