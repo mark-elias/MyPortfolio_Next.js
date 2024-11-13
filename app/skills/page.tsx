@@ -19,7 +19,7 @@ function SkillsPage() {
           <BadgeList badgeList={["React-Hook-Form", "Zod", "Joi"]} />
         </div>
         <div className="skill-card">
-          <h2>API's & Data Fetching</h2>
+          <h2>API&#39;s & Data Fetching</h2>
           <BadgeList
             badgeList={[
               "REST API's",
@@ -39,7 +39,7 @@ function SkillsPage() {
           <BadgeList badgeList={["MongoDB", "mySQL", "PostgreSQL"]} />
         </div>
         <div className="skill-card">
-          <h2>ORM's</h2>
+          <h2>ORM&#39;s</h2>
           <BadgeList badgeList={["Mongoose", "Prisma"]} />
         </div>
         <div className="skill-card">
