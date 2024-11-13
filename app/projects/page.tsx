@@ -67,15 +67,44 @@ function ProjectsPage() {
           ]}
         ></ProjectCard>
         <ProjectCard
+          image="/images/restaurant_screenshot.png"
+          alt="Restaurant project screenshot"
+          title="Restaurant Project"
+          description="Multipage site showcasing my CSS skills. Improved performance with smaller images and semantic HTML. Made the site responsive, added persistent Dark Mode"
+          siteLink="https://mark-elias.github.io/Restaurant_Project.github.io/"
+          githubLink="https://github.com/mark-elias/Restaurant_Project.github.io"
+          badges={["CSS", "JavaScript", "HTML", "Git", "GitHub Pages"]}
+        ></ProjectCard>
+        <ProjectCard
           image="/images/rockPaperScissors_screenshot.png"
           alt="Rock Paper Scissors project screenshot"
           title="JS Rock Paper Scissors"
           description="Used unique border radius styling, added a scoreboard, and ensured mobile/tablet compatibility. JavaScript was fun and challenging; helper functions improved readability."
           siteLink="https://mark-elias.github.io/RockPaperScissors.github.io/"
           githubLink="https://github.com/mark-elias/RockPaperScissors.github.io"
+          badges={["JavaScript", "CSS", "Git", "GitHub Pages"]}
+        ></ProjectCard>
+        <ProjectCard
+          image="/images/kreativstormProject_screenshot.png"
+          alt="Kreativstorm group project screenshot"
+          title="Kreativstorm Group Project"
+          description="Group project in Kreativstorm's Front End training with international students. Enjoyed collaborating across cultures. Responsible for creating the 'Matches' page."
+          siteLink="https://second-assignment-kreativstorm.vercel.app/pages/matches.html"
+          githubLink="https://github.com/joaopedro-vidal/second-assignment-kreativstorm?tab=readme-ov-file"
+          badges={["HTML", "CSS", "Git", "Vercel"]}
+        ></ProjectCard>
+        <ProjectCard
+          image="/images/weatherProject_screenshot.png"
+          alt="Weather API project screenshot"
+          title="Weather API Project"
+          description="First API project. It was challenging trying to understand the syntax of Async Javascript. Experimented with glassmorphism and CSS tricks. Will continue practicing API skills."
+          siteLink="https://mark-elias.github.io/WeatherProject.github.io/"
+          githubLink="https://github.com/mark-elias/WeatherProject.github.io"
           badges={[
-            "JavaScript",
+            "HTML",
             "CSS",
+            "JavaScript",
+            "REST API's",
             "Git",
             "GitHub Pages",
           ]}

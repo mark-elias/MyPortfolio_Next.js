@@ -53,6 +53,6 @@
         @apply p-5 flex flex-wrap gap-5
     }
     .skill-card{
-        @apply shadow-xl p-5 rounded-xl
+        @apply shadow-2xl p-5 rounded-xl
     }
 }
