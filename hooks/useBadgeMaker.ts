@@ -3,7 +3,7 @@ const badgeMaker: {
     [key: string]: { backgroundColor: string; textColor: string };
   } = {
     // Front End
-    "React.js": { backgroundColor: "#61DAFB", textColor: "#000000" },
+    "React": { backgroundColor: "#61DAFB", textColor: "#000000" },
     TypeScript: { backgroundColor: "#007ACC", textColor: "#FFFFFF" },
     Tailwind: { backgroundColor: "#06B6D4", textColor: "#FFFFFF" },
   

@@ -1,6 +1,8 @@
 import { useBadgeMaker } from "@/hooks/useBadgeMaker";
 import Image from "next/image";
 import React from "react";
+import { FaGithub } from "react-icons/fa";
+import { TbWorldBolt } from "react-icons/tb";
 
 interface Props {
   image: string;
@@ -43,20 +45,22 @@ function ProjectCard({
             href={siteLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="cool-link text-sm"
+            className="cool-link"
           >
+            <TbWorldBolt />
             View Site
           </a>
           <a
             href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="cool-link text-sm"
+            className="cool-link"
           >
+            <FaGithub />
             GitHub Repo
           </a>
         </div>
-        <div className="flex flex-wrap gap-1 mt-5 text-sm">
+        <div className="flex flex-wrap gap-1 mt-7">
           {badgeStyles.map((badgeStyle) => (
             <span
               key={badgeStyle.name}
