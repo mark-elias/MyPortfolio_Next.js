@@ -2,13 +2,12 @@ import React from "react";
 
 function Summary() {
   return (
-    <section className="rounded-lg border-2 shadow-xl">
+    <section className="rounded-lg shadow-md md:min-w-[500px] shadow-customPrimary/50 border-[1px] border-customPrimary">
       <p>
-        San Diego-based Full Stack Developer with expertise in building
-        responsive, user-friendly web applications using React, JavaScript,
-        TypeScript, and Node.js. Skilled in developing REST APIs, fetching and
-        managing data from APIs, and handling databases with MongoDB and
-        Mongoose.
+        Full Stack Developer with expertise in building responsive,
+        user-friendly web applications using React, JavaScript, TypeScript, and
+        Node.js. Skilled in developing REST APIs, fetching and managing data
+        from APIs, and handling databases with MongoDB and Mongoose.
       </p>
       <p>
         Proficient in authentication, data validation (Joi, Zod, React Hook

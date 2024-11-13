@@ -32,16 +32,16 @@
         @apply flex items-center gap-1 hover:text-customPrimary
     }
     .cool-link{
-        @apply inline-flex items-center gap-1 bg-customPrimary px-2 rounded shadow-lg shadow-customPrimary/50 text-white hover:scale-105 duration-200 ease-in-out font-medium
+        @apply inline-flex items-center gap-1 bg-customPrimary px-2 rounded shadow-md shadow-customPrimary/50 text-white hover:scale-105 duration-200 ease-in-out font-medium
     }
     .cool-div-container{
         @apply flex flex-col p-5 gap-5
     }
     .cool-div{
-        @apply p-5 rounded-lg shadow-xl border-2
+        @apply p-5 rounded-lg shadow-md shadow-customPrimary/50 border-[1px] border-customPrimary
     }
     .project-container{
-        @apply p-5 flex flex-wrap gap-7
+        @apply p-5 flex flex-wrap gap-11
     }
     .project-card{
         @apply rounded-xl shadow-2xl w-[300px] transition-transform transform hover:scale-105 ease-in-out duration-300
@@ -53,12 +53,12 @@
         @apply p-5 flex flex-wrap gap-5
     }
     .skill-card{
-        @apply shadow-2xl p-5 rounded-xl
+        @apply shadow-2xl p-5 rounded-xl shadow-md shadow-customPrimary/50 border-[1px] border-customPrimary
     }
     .cert-container{
         @apply flex flex-col p-5 gap-5 lg:flex-row lg:flex-wrap
     }
     .cert-card{
-        @apply p-5 rounded-lg shadow-xl md:min-w-[500px]
+        @apply p-5 rounded-lg shadow-md md:min-w-[500px] shadow-customPrimary/50 border-[1px] border-customPrimary
     }
 }

@@ -12,7 +12,7 @@ function BadgeList({ badgeList }: Props) {
       {badgeStyles.map((badgeStyle) => (
         <span
           key={badgeStyle.name}
-          className="cool-badge"
+          className="cool-badge text-base"
           style={{
             backgroundColor: badgeStyle.styles.backgroundColor || "#ccc",
             color: badgeStyle.styles.textColor || "#000",
