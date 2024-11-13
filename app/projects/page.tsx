@@ -8,7 +8,7 @@ function ProjectsPage() {
       <div className="project-container">
         <ProjectCard
           image="/images/mernBookstore_screenshot.png"
-          alt="mern bookstore screenshot"
+          alt="mern bookstore project screenshot"
           title="MERN Bookstore"
           description="MERN stack project with CRUD operations, validation, TypeScript, and TanStack Query"
           siteLink="https://mern-bookstore-olive.vercel.app/"
@@ -30,6 +30,22 @@ function ProjectsPage() {
             "Mongoose",
             "Vercel",
             "Render",
+          ]}
+        ></ProjectCard>
+        <ProjectCard
+          image="/images/gameHub_screenshot.png"
+          alt="game hub project screenshot"
+          title="Game Hub"
+          description="Game discovery project where you can filter and search for games. Uses Custom and Generic hooks"
+          siteLink="https://game-hub-project-kappa.vercel.app/"
+          githubLink="https://github.com/mark-elias/game-hub"
+          badges={[
+            "React",
+            "TypeScript",
+            "REST API's",
+            "Axios",
+            "Git",
+            "Vercel",
           ]}
         ></ProjectCard>
       </div>
