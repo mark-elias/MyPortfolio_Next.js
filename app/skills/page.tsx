@@ -8,11 +8,17 @@ function SkillsPage() {
       <div className="skills-container">
         <div className="skill-card">
           <h2>Front End</h2>
-          <BadgeList badgeList={["React", "TypeScript", "Tailwind"]} />
+          <BadgeList badgeList={["React", "TypeScript"]} />
+        </div>
+        <div className="skill-card">
+          <h2>CSS</h2>
+          <BadgeList
+            badgeList={["Tailwind", "Material UI", "Chakra UI", "Bootstrap"]}
+          />
         </div>
         <div className="skill-card">
           <h2>Full Stack & Back End</h2>
-          <BadgeList badgeList={["Next.js", "Node.js", "Express.js"]} />
+          <BadgeList badgeList={["Next.js", "Node.js", "Express.js", "NPM"]} />
         </div>
         <div className="skill-card">
           <h2>Forms & Data Validation</h2>
@@ -42,15 +48,19 @@ function SkillsPage() {
           <h2>ORM&#39;s</h2>
           <BadgeList badgeList={["Mongoose", "Prisma"]} />
         </div>
-        <div className="skill-card">
+        {/* <div className="skill-card">
           <h2>Authentication</h2>
           <BadgeList badgeList={["Clerk", "NextAuth"]} />
-        </div>
+        </div> */}
         <div className="skill-card">
           <h2>Deployment & Hosting</h2>
           <BadgeList
             badgeList={["Vercel", "Render", "Hostinger", "GitHub Pages"]}
           />
+        </div>
+        <div className="skill-card">
+          <h2>Other</h2>
+          <BadgeList badgeList={["Slack"]} />
         </div>
       </div>
       <p className="mt-12">

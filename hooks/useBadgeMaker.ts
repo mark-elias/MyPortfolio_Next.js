@@ -8,7 +8,6 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   // Front End
   React: { backgroundColor: "#61DAFB", textColor: "#000000" },
   TypeScript: { backgroundColor: "#007ACC", textColor: "#FFFFFF" },
-  Tailwind: { backgroundColor: "#06B6D4", textColor: "#FFFFFF" },
   JavaScript: { backgroundColor: "#F7DF1E", textColor: "#000000" },
   CSS: { backgroundColor: "#1572B6", textColor: "#FFFFFF" },
   HTML: { backgroundColor: "#E34F26", textColor: "#FFFFFF" },
@@ -17,6 +16,13 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   "Next.js": { backgroundColor: "#000000", textColor: "#FFFFFF" },
   "Node.js": { backgroundColor: "#339933", textColor: "#FFFFFF" },
   "Express.js": { backgroundColor: "#000000", textColor: "#FFFFFF" },
+  NPM: { backgroundColor: "#CB3837", textColor: "#FFFFFF" },
+
+  // CSS
+  Tailwind: { backgroundColor: "#06B6D4", textColor: "#FFFFFF" },
+  "Material UI": { backgroundColor: "#0081CB", textColor: "#FFFFFF" },
+  "Chakra UI": { backgroundColor: "#319795", textColor: "#FFFFFF" },
+  Bootstrap: { backgroundColor: "#7952B3", textColor: "#FFFFFF" },
 
   // Forms & Data Validation
   "React-Hook-Form": { backgroundColor: "#EC5990", textColor: "#FFFFFF" },
@@ -52,6 +58,10 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   Render: { backgroundColor: "#46E3B7", textColor: "#000000" },
   Hostinger: { backgroundColor: "#3E1DDB", textColor: "#FFFFFF" },
   "GitHub Pages": { backgroundColor: "#181717", textColor: "#FFFFFF" },
+
+  // Other Tools
+  Figma: { backgroundColor: "#F24E1E", textColor: "#FFFFFF" },
+  Slack: { backgroundColor: "#4A154B", textColor: "#FFFFFF" },
 };
 
 export const useBadgeMaker = (
