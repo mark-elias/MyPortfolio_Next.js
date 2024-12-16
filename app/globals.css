@@ -44,27 +44,39 @@
     @apply p-5 flex flex-wrap gap-10;
   }
   .project-card {
-    @apply rounded-xl shadow-2xl w-[300px] transition-transform transform hover:scale-105 ease-in-out duration-300;
+    @apply rounded-lg custom-shadow w-[300px] transition-transform transform hover:scale-105 ease-in-out duration-300;
   }
   .cool-badge {
     @apply rounded text-[12px] px-2;
   }
   .skills-container {
-    @apply p-5 flex flex-wrap gap-5;
+    @apply p-5 flex flex-wrap gap-7;
   }
   .skill-card {
-    @apply shadow-2xl p-5 rounded-xl shadow-md shadow-customPrimary/50 border-[1px] border-customPrimary;
+    @apply px-3 pb-3 rounded-lg custom-shadow min-w-[150px];
   }
   .cert-container {
-    @apply flex flex-col p-5 gap-5 lg:flex-row lg:flex-wrap;
+    @apply flex flex-col p-5 gap-7 lg:flex-row lg:flex-wrap;
   }
   .cert-card {
-    @apply p-3 rounded-lg shadow-md md:min-w-[400px] bg-customSecondary text-white;
+    @apply p-3 rounded-lg custom-shadow md:min-w-[400px];
+  }
+  .edu-container {
+    @apply flex flex-col p-5 gap-5;
   }
   .edu-card {
-    @apply p-3 rounded-lg shadow-md md:min-w-[400px] bg-customSecondary text-white;
+    @apply p-3 rounded-lg custom-shadow md:min-w-[400px];
+  }
+  .exp-container {
+    @apply flex flex-col p-5 gap-7;
   }
   .exp-card {
-    @apply p-4 rounded-lg shadow-md md:min-w-[400px] bg-customSecondary text-white;
+    @apply p-4 rounded-lg shadow-md md:min-w-[400px] custom-shadow;
+  }
+}
+
+@layer utilities {
+  .custom-shadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 }

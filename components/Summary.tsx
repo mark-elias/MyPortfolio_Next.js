@@ -2,7 +2,7 @@ import React from "react";
 
 function Summary() {
   return (
-    <section className="rounded-lg shadow-md md:min-w-[500px] bg-customSecondary text-white ">
+    <section className="rounded-lg custom-shadow md:min-w-[500px]">
       <p>
         Full Stack Developer with expertise in building responsive,
         user-friendly web applications using React, JavaScript, TypeScript, and

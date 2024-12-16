@@ -6,7 +6,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <section className="flex flex-col gap-3 lg:flex-row lg:justify-center lg:gap-10">
+    <section className="flex gap-7 justify-center flex-wrap">
       <div className="flex items-center gap-1">
         <FaLocationDot></FaLocationDot>
         San Diego

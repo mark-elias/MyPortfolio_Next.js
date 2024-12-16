@@ -1,16 +1,29 @@
 import React from "react";
+import BadgeList from "../skills/BadgeList";
 
 function ExperiencePage() {
   return (
     <section>
       <h1>Experience</h1>
-      <div className="cool-div-container">
+      <div className="exp-container">
         <div className="exp-card">
-          <h2 className="text-customAccent">Full Stack Developer</h2>
-          <span className="mr-3">Internship</span>
-          <span>Remote</span>
-          <h3>Xenara AI | Nov 2024 - Current</h3>
-          <ul className="list-disc ml-8">
+          <h2>Full Stack Developer</h2>
+          <span className="mr-5">Xenara AI</span>
+          <span>Internship</span>
+          <p className="text-sm">Nov 2024 - Current</p>
+          <BadgeList
+            badgeList={[
+              "TypeScript",
+              "Next.js",
+              "Material UI",
+              "Nest.js",
+              "API Development",
+              "Git",
+              "Figma",
+              "Slack",
+            ]}
+          />
+          <ul className="list-disc ml-8 mt-5">
             <li>
               Collaborated with a remote team to build the company site using
               Next.js, TypeScript, and Material UI
@@ -23,11 +36,12 @@ function ExperiencePage() {
           </ul>
         </div>
         <div className="exp-card">
-          <h2 className="text-customAccent">Front-End Developer</h2>
-          <span className="mr-3">Internship</span>
-          <span>Remote</span>
-          <h3>Kreativstorm | August 2023 - October 2023</h3>
-          <ul className="list-disc ml-8">
+          <h2>Front-End Developer</h2>
+          <span className="mr-5">Kreativstorm</span>
+          <span>Internship</span>
+          <p className="text-sm">August 2023 - October 2023</p>
+          <BadgeList badgeList={["HTML", "CSS", "JavaScript", "Git"]} />
+          <ul className="list-disc ml-8 mt-5">
             <li>
               Collaborated with international teams on group projects, using
               HTML, CSS, and JavaScript to develop responsive frontend websites.
