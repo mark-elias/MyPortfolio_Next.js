@@ -11,7 +11,7 @@ function ProjectsPage() {
           alt="marcos elias portfolio project screenshot"
           title="My Portfolio"
           description="Remade my portfolio with Next.js (previously built with React) so that it is easier to maintain and update. "
-          siteLink="https://myportfolio-nextjs-dusky.vercel.app/"
+          siteLink="https://marcoseliasportfolio.com"
           githubLink="https://github.com/mark-elias/MyPortfolio_Next.js"
           badges={["Next.js", "TypeScript", "Tailwind", "Git", "Vercel"]}
         ></ProjectCard>

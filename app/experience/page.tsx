@@ -5,27 +5,27 @@ function ExperiencePage() {
     <section>
       <h1>Experience</h1>
       <div className="cool-div-container">
-        {/* <div className="cool-div">
-          <h2>Tutor</h2>
-          <h3>HeyTutor | August 2023 - Current</h3>
+        <div className="exp-card">
+          <h2 className="text-customAccent">Full Stack Developer</h2>
+          <span className="mr-3">Internship</span>
+          <span>Remote</span>
+          <h3>Xenara AI | Nov 2024 - Current</h3>
           <ul className="list-disc ml-8">
             <li>
-              Act as a mentor to students, providing guidance and support beyond
-              academic assistance.
+              Collaborated with a remote team to build the company site using
+              Next.js, TypeScript, and Material UI
             </li>
             <li>
-              Assist students in understanding and mastering mathematical
-              concepts, tailoring explanations to suit individual learning
-              styles.
+              Refactored the codebase to adhere to Atomic Design principles,
+              ensuring consistent component organization
             </li>
-            <li>
-              Monitor and track the academic progress of students, adjusting
-              tutoring strategies as needed to ensure continuous improvement.
-            </li>
+            <li>Integrated Figma design assets into Material UI components</li>
           </ul>
-        </div> */}
-        <div className="cool-div">
-          <h2>Front-End Developer Trainee</h2>
+        </div>
+        <div className="exp-card">
+          <h2 className="text-customAccent">Front-End Developer</h2>
+          <span className="mr-3">Internship</span>
+          <span>Remote</span>
           <h3>Kreativstorm | August 2023 - October 2023</h3>
           <ul className="list-disc ml-8">
             <li>

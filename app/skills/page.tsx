@@ -7,9 +7,25 @@ function SkillsPage() {
 
       <div className="skills-container">
         <div className="skill-card">
-          <h2>Front End</h2>
-          <BadgeList badgeList={["React", "TypeScript"]} />
+          <h2>Languages</h2>
+          <BadgeList badgeList={["TypeScript"]} />
         </div>
+        <div className="skill-card">
+          <h2>Full Stack</h2>
+          <BadgeList badgeList={["Next.js"]} />
+        </div>
+        <div className="skill-card">
+          <h2>Front End</h2>
+          <BadgeList badgeList={["React"]} />
+        </div>
+        <div className="skill-card">
+          <h2>Back End</h2>
+          <BadgeList badgeList={["Node.js", "Express.js"]} />
+        </div>
+        {/* <div className="skill-card">
+          <h2>Package Managers</h2>
+          <BadgeList badgeList={["NPM", "Yarn"]} />
+        </div> */}
         <div className="skill-card">
           <h2>CSS</h2>
           <BadgeList
@@ -17,8 +33,8 @@ function SkillsPage() {
           />
         </div>
         <div className="skill-card">
-          <h2>Full Stack & Back End</h2>
-          <BadgeList badgeList={["Next.js", "Node.js", "Express.js", "NPM"]} />
+          <h2>Version Control</h2>
+          <BadgeList badgeList={["Git", "GitHub"]} />
         </div>
         <div className="skill-card">
           <h2>Forms & Data Validation</h2>
@@ -30,16 +46,16 @@ function SkillsPage() {
             badgeList={[
               "REST API's",
               "API Development",
-              "TanStack Query",
               "Postman",
+              "TanStack Query",
               "Axios",
             ]}
           />
         </div>
-        <div className="skill-card">
-          <h2>Version Control</h2>
-          <BadgeList badgeList={["Git", "GitHub"]} />
-        </div>
+        {/* <div className="skill-card">
+          <h2>Global State Management</h2>
+          <BadgeList badgeList={["Zustand"]} />
+        </div> */}
         <div className="skill-card">
           <h2>Databases</h2>
           <BadgeList badgeList={["MongoDB", "mySQL", "PostgreSQL"]} />
@@ -60,7 +76,7 @@ function SkillsPage() {
         </div>
         <div className="skill-card">
           <h2>Other</h2>
-          <BadgeList badgeList={["Slack"]} />
+          <BadgeList badgeList={["Figma", "Slack"]} />
         </div>
       </div>
       <p className="mt-12">

@@ -17,7 +17,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="bg-white top-0 sticky shadow-lg shadow-zinc-300/50 rounded-b-2xl flex justify-between p-4 items-center z-50 ">
+    <nav className="bg-white top-0 sticky shadow-lg shadow-zinc-300/50 rounded-b-lg flex justify-between p-4 items-center z-50 ">
       <Link href="/" className="text-xl font-bold text-customPrimary">
         marcos elias
       </Link>
@@ -52,12 +52,6 @@ const Navbar = () => {
               </Link>
             </div>
             <div>
-              <Link href={"/education"} className="nav-link">
-                <FaGraduationCap />
-                Education
-              </Link>
-            </div>
-            <div>
               <Link href={"/experience"} className="nav-link">
                 <FaDev />
                 Experience
@@ -67,6 +61,12 @@ const Navbar = () => {
               <Link href={"/certificates"} className="nav-link">
                 <TbCertificate />
                 Certificates
+              </Link>
+            </div>
+            <div>
+              <Link href={"/education"} className="nav-link">
+                <FaGraduationCap />
+                Education
               </Link>
             </div>
           </div>
@@ -83,10 +83,6 @@ const Navbar = () => {
           <FaLaptopCode />
           Projects
         </Link>
-        <Link href="/education" className="nav-link">
-          <FaGraduationCap className="text-lg" />
-          Education
-        </Link>
         <Link href="/experience" className="nav-link">
           <FaDev />
           Experience
@@ -94,6 +90,10 @@ const Navbar = () => {
         <Link href="/certificates" className="nav-link">
           <TbCertificate />
           Certificates
+        </Link>
+        <Link href="/education" className="nav-link">
+          <FaGraduationCap className="text-lg" />
+          Education
         </Link>
       </div>
     </nav>

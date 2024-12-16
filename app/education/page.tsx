@@ -5,9 +5,11 @@ function EducationPage() {
     <section>
       <h1>Education</h1>
       <div className="cool-div-container">
-        <div className="cool-div ">
-          <h2>San Diego State University</h2>
-          <h3>Bachelor&#39;s degree, Computer Science</h3>
+        <div className="edu-card">
+          <h2 className="text-customAccent">
+            Bachelor&#39;s degree, Computer Science
+          </h2>
+          <p>San Diego State University</p>
           <p>Graduated May 2023</p>
         </div>
       </div>
