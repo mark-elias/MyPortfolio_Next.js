@@ -74,6 +74,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   // Other
   Figma: { backgroundColor: "#F24E1E", textColor: "#FFFFFF" },
   Slack: { backgroundColor: "#4A154B", textColor: "#FFFFFF" },
+  Jira: { backgroundColor: "#0052CC", textColor: "#FFFFFF" },
 };
 
 export const useBadgeMaker = (

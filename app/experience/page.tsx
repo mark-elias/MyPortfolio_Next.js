@@ -19,20 +19,36 @@ function ExperiencePage() {
               "Nest.js",
               "API Development",
               "Git",
+              "MongoDB",
               "Figma",
               "Slack",
+              "Jira",
             ]}
           />
           <ul className="list-disc ml-8 mt-5">
             <li>
-              Collaborated with a remote team to build the company site using
-              Next.js, TypeScript, and Material UI
+              Built and maintained frontend components, pages, and UI systems
+              using Next.js, TypeScript, and Material UI, following Atomic
+              Design principles
             </li>
             <li>
-              Refactored the codebase to adhere to Atomic Design principles,
-              ensuring consistent component organization
+              Developed and maintained backend services using Nest.js and
+              MongoDB, designing RESTful APIs, handling data validation with
+              DTOs, and implementing business logic in controllers and services.
             </li>
-            <li>Integrated Figma design assets into Material UI components</li>
+            <li>
+              Collaborated with a remote team using Slack, Jira, Figma, and
+              GitHub, contributing to agile development and effective
+              communication.
+            </li>
+            <li>
+              Translated Figma designs into responsive UI components, ensuring
+              design consistency and accessibility.
+            </li>
+            <li>
+              Refactored and optimized code for scalability, maintainability,
+              and best practices
+            </li>
           </ul>
         </div>
         <div className="exp-card">

@@ -40,6 +40,12 @@ const Navbar = () => {
         <div className="lg:hidden absolute top-[62px] w-full flex justify-end left-0">
           <div className="bg-zinc-100 w-[200px] mr-[14px] rounded-b-2xl shadow-inner px-3 py-5 flex flex-col gap-1">
             <div>
+              <Link href={"/experience"} className="nav-link">
+                <FaDev />
+                Experience
+              </Link>
+            </div>
+            <div>
               <Link href={"/skills"} className="nav-link">
                 <GiGuitarBassHead />
                 Skills
@@ -52,9 +58,9 @@ const Navbar = () => {
               </Link>
             </div>
             <div>
-              <Link href={"/experience"} className="nav-link">
-                <FaDev />
-                Experience
+              <Link href={"/education"} className="nav-link">
+                <FaGraduationCap />
+                Education
               </Link>
             </div>
             <div>
@@ -63,18 +69,16 @@ const Navbar = () => {
                 Certificates
               </Link>
             </div>
-            <div>
-              <Link href={"/education"} className="nav-link">
-                <FaGraduationCap />
-                Education
-              </Link>
-            </div>
           </div>
         </div>
       )}
 
       {/* Desktop Links */}
       <div className="hidden lg:flex gap-8">
+        <Link href="/experience" className="nav-link">
+          <FaDev />
+          Experience
+        </Link>
         <Link href="/skills" className="nav-link">
           <GiGuitarBassHead />
           Skills
@@ -83,17 +87,13 @@ const Navbar = () => {
           <FaLaptopCode />
           Projects
         </Link>
-        <Link href="/experience" className="nav-link">
-          <FaDev />
-          Experience
+        <Link href="/education" className="nav-link">
+          <FaGraduationCap className="text-lg" />
+          Education
         </Link>
         <Link href="/certificates" className="nav-link">
           <TbCertificate />
           Certificates
-        </Link>
-        <Link href="/education" className="nav-link">
-          <FaGraduationCap className="text-lg" />
-          Education
         </Link>
       </div>
     </nav>

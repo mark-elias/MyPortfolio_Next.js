@@ -20,7 +20,7 @@ function SkillsPage() {
         </div>
         <div className="skill-card">
           <h2>Back End</h2>
-          <BadgeList badgeList={["Node.js", "Express.js"]} />
+          <BadgeList badgeList={["Node.js", "Express.js", "Nest.js"]} />
         </div>
         {/* <div className="skill-card">
           <h2>Package Managers</h2>
@@ -46,9 +46,9 @@ function SkillsPage() {
             badgeList={[
               "REST API's",
               "API Development",
-              "Postman",
-              "TanStack Query",
               "Axios",
+              "TanStack Query",
+              "Postman",
             ]}
           />
         </div>
@@ -75,8 +75,8 @@ function SkillsPage() {
           />
         </div>
         <div className="skill-card">
-          <h2>Other</h2>
-          <BadgeList badgeList={["Figma", "Slack"]} />
+          <h2>Collaboration</h2>
+          <BadgeList badgeList={["Figma", "Slack", "Jira"]} />
         </div>
       </div>
       <p className="mt-12">
