@@ -12,7 +12,7 @@ interface Props {
   description: string;
   siteLink?: string;
   githubLink?: string;
-  badges: string[];
+  badges: readonly string[];
 }
 
 function ProjectCard({

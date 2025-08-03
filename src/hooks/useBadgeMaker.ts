@@ -78,7 +78,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
 };
 
 export const useBadgeMaker = (
-  badges: string[]
+  badges: readonly string[]
 ): { name: string; styles: BadgeStyle }[] => {
   const badgeStyles: { name: string; styles: BadgeStyle }[] = [];
 
