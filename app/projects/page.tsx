@@ -1,4 +1,4 @@
-import ProjectCard from "@/src/components/ProjectCard";
+import { ProjectCard } from "@/src/components/organisms";
 import portfolioScreenshot from "@/src/assets/images/portfolio_screenshot.png";
 import mernBookstoreScreenshot from "@/src/assets/images/mernBookstore_screenshot.png";
 import gameHubScreenshot from "@/src/assets/images/gameHub_screenshot.png";

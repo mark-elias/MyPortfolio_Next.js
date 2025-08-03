@@ -1,4 +1,4 @@
-import BadgeList from "@/src/components/BadgeList";
+import { BadgeList } from "@/src/components/organisms";
 
 function SkillsPage() {
   return (

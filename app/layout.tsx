@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/src/components/NavBar";
-import Footer from "@/src/components/Footer";
+import { Navbar, Footer } from "@/src/components/organisms";
 
 export const metadata: Metadata = {
   title: "Marcos Elias",
