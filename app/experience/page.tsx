@@ -6,43 +6,42 @@ function ExperiencePage() {
       <h1>Experience</h1>
       <div className="exp-container">
         <div className="exp-card">
-          <h2>Full Stack Developer</h2>
+          <h2>Lead Full Stack Developer</h2>
           <span className="mr-5">Xenara AI</span>
-          <span>Internship</span>
+          <span>Contract</span>
           <p className="text-sm">Nov 2024 - Current</p>
           <BadgeList
             badgeList={[
               "TypeScript",
               "Next.js",
+              "React",
               "Material UI",
+              "Tailwind",
               "Nest.js",
               "API Development",
+              "AWS S3",
+              "Postman",
               "Git",
               "MongoDB",
               "Figma",
-              "Slack",
-              "Jira",
             ]}
           />
           <ul className="list-disc ml-8 mt-5">
             <li>
-              Built and maintained frontend components, pages, and UI systems
-              using Next.js, TypeScript, and Material UI, following Atomic
-              Design principles
+              Promoted to Lead Full Stack Developer, mentoring new developers
+              and coordinating technical archi- tecture
             </li>
             <li>
-              Developed and maintained backend services using Nest.js and
-              MongoDB, designing RESTful APIs, handling data validation with
-              DTOs, and implementing business logic in controllers and services.
+              Developed scalable applications using Next.js, TypeScript,
+              Material UI, and TanStack Query with Zod validation
             </li>
             <li>
-              Collaborated with a remote team using Slack, Jira, Figma, and
-              GitHub, contributing to agile development and effective
-              communication.
+              Built RESTful APIs with Nest.js and MongoDB, implementing AWS S3
+              integration for file uploads
             </li>
             <li>
-              Translated Figma designs into responsive UI components, ensuring
-              design consistency and accessibility.
+              Transformed Figma designs into responsive UI components following
+              Atomic Design principles
             </li>
             <li>
               Refactored and optimized code for scalability, maintainability,
