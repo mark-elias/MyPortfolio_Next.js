@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
+import Navbar from "@/src/components/NavBar";
+import Footer from "@/src/components/Footer";
 
 export const metadata: Metadata = {
   title: "Marcos Elias",
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col">
-        <NavBar></NavBar>
+        <Navbar></Navbar>
         <main className="flex-grow">{children}</main>
         <Footer></Footer>
       </body>

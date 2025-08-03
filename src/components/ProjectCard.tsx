@@ -1,11 +1,11 @@
-import { useBadgeMaker } from "@/hooks/useBadgeMaker";
-import Image from "next/image";
+import { useBadgeMaker } from "../hooks/useBadgeMaker";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { TbWorldBolt } from "react-icons/tb";
 
 interface Props {
-  image: string;
+  image: StaticImageData;
   alt: string;
   title: string;
   description: string;

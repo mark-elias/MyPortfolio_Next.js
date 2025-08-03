@@ -1,5 +1,4 @@
-import React from "react";
-import BadgeList from "../skills/BadgeList";
+import BadgeList from "@/src/components/BadgeList";
 
 function ExperiencePage() {
   return (

@@ -1,4 +1,4 @@
-import { useBadgeMaker } from "@/hooks/useBadgeMaker";
+import { useBadgeMaker } from "../hooks/useBadgeMaker";
 
 interface Props {
   badgeList: string[];

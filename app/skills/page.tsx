@@ -1,5 +1,5 @@
-import React from "react";
-import BadgeList from "./BadgeList";
+import BadgeList from "@/src/components/BadgeList";
+
 function SkillsPage() {
   return (
     <section>

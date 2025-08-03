@@ -1,7 +1,7 @@
 import React from "react";
-import Contact from "@/components/Contact";
-import Hero from "@/components/Hero";
-import Summary from "@/components/Summary";
+import Contact from "@/src/components/Contact";
+import Hero from "@/src/components/Hero";
+import Summary from "@/src/components/Summary";
 
 function HomePage() {
   return (

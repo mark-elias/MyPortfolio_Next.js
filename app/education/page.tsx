@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import educationImage from "../../assets/education-image.jpg";
+import educationImage from "@/src/assets/images/education-image.jpg";
 
 function EducationPage() {
   return (
