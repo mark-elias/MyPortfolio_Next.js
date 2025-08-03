@@ -4,24 +4,31 @@ type BadgeStyle = {
 };
 
 const badgeMaker: { [key: string]: BadgeStyle } = {
-  // Front End
-  React: { backgroundColor: "#61DAFB", textColor: "#000000" },
+  // Basics
   CSS: { backgroundColor: "#1572B6", textColor: "#FFFFFF" },
   HTML: { backgroundColor: "#E34F26", textColor: "#FFFFFF" },
 
-  // Languages (for general-purpose programming languages)
+  // Programming Languages
   JavaScript: { backgroundColor: "#F7DF1E", textColor: "#000000" },
   TypeScript: { backgroundColor: "#007ACC", textColor: "#FFFFFF" },
 
-  // Full Stack & Back End
+  // Frontend Frameworks
+  React: { backgroundColor: "#61DAFB", textColor: "#000000" },
   "Next.js": { backgroundColor: "#000000", textColor: "#FFFFFF" },
+
+  // Backend & Runtimes
   "Node.js": { backgroundColor: "#339933", textColor: "#FFFFFF" },
+  "Bun.js": { backgroundColor: "#000000", textColor: "#FFFFFF" },
+
+  // Backend Frameworks
   "Express.js": { backgroundColor: "#000000", textColor: "#FFFFFF" },
   "Nest.js": { backgroundColor: "#E0234E", textColor: "#FFFFFF" },
 
-  // Package Manager
+  // Package Managers
   NPM: { backgroundColor: "#CB3837", textColor: "#FFFFFF" },
   Yarn: { backgroundColor: "#2C8EBB", textColor: "#FFFFFF" },
+  Bun: { backgroundColor: "#000000", textColor: "#FFFFFF" },
+  Homebrew: { backgroundColor: "#FF6B35", textColor: "#FFFFFF" },
 
   // CSS
   Tailwind: { backgroundColor: "#06B6D4", textColor: "#FFFFFF" },
@@ -43,6 +50,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
 
   // Global State Management
   Zustand: { backgroundColor: "#F0A500", textColor: "#FFFFFF" },
+  "Redux Toolkit": { backgroundColor: "#764ABC", textColor: "#FFFFFF" },
 
   // Version Control
   Git: { backgroundColor: "#F05032", textColor: "#FFFFFF" },
@@ -53,13 +61,17 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   mySQL: { backgroundColor: "#00758F", textColor: "#FFFFFF" },
   PostgreSQL: { backgroundColor: "#336791", textColor: "#FFFFFF" },
 
-  // ORMs
+  // ORMs & ODMs
   Mongoose: { backgroundColor: "#880000", textColor: "#FFFFFF" },
   Prisma: { backgroundColor: "#0C344B", textColor: "#FFFFFF" },
 
   // Authentication
   Clerk: { backgroundColor: "#3B82F6", textColor: "#FFFFFF" },
   NextAuth: { backgroundColor: "#000000", textColor: "#FFFFFF" },
+  JWT: { backgroundColor: "#D63AFF", textColor: "#FFFFFF" },
+  Cookies: { backgroundColor: "#FF6B35", textColor: "#FFFFFF" },
+  bcrypt: { backgroundColor: "#3498DB", textColor: "#FFFFFF" },
+  "2FA/MFA": { backgroundColor: "#1ABC9C", textColor: "#FFFFFF" },
 
   // Deployment & Hosting
   Vercel: { backgroundColor: "#000000", textColor: "#FFFFFF" },
@@ -67,12 +79,24 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   Hostinger: { backgroundColor: "#3E1DDB", textColor: "#FFFFFF" },
   "GitHub Pages": { backgroundColor: "#181717", textColor: "#FFFFFF" },
 
+  // Cloud Services & Tools
+  "AWS S3": { backgroundColor: "#FF9900", textColor: "#000000" },
+
   // Tools & Environment
   Linux: { backgroundColor: "#FCC624", textColor: "#000000" },
   Docker: { backgroundColor: "#2496ED", textColor: "#FFFFFF" },
+  NVM: { backgroundColor: "#339933", textColor: "#FFFFFF" },
+  "Shell Scripting": { backgroundColor: "#4A90E2", textColor: "#FFFFFF" },
+  "Command Line": { backgroundColor: "#2C3E50", textColor: "#FFFFFF" },
+  SSH: { backgroundColor: "#E74C3C", textColor: "#FFFFFF" },
+  "Vim/Neovim": { backgroundColor: "#019733", textColor: "#FFFFFF" },
+  "VS Code": { backgroundColor: "#007ACC", textColor: "#FFFFFF" },
+  WebStorm: { backgroundColor: "#000000", textColor: "#FFFFFF" },
+  "Process Management": { backgroundColor: "#9B59B6", textColor: "#FFFFFF" },
+  "Environment Variables": { backgroundColor: "#F39C12", textColor: "#FFFFFF" },
 
   // Other
-  Figma: { backgroundColor: "#F24E1E", textColor: "#FFFFFF" },
+  Figma: { backgroundColor: "#8B5CF6", textColor: "#FFFFFF" },
   Slack: { backgroundColor: "#4A154B", textColor: "#FFFFFF" },
   Jira: { backgroundColor: "#0052CC", textColor: "#FFFFFF" },
 };
