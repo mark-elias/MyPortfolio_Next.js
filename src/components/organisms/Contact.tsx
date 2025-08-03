@@ -1,35 +1,29 @@
+// assets
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import React from "react";
+// constants
+import { contactInfo } from "@/src/constants/contact.constants";
 
 function Contact() {
   return (
     <section className="flex gap-7 justify-center flex-wrap">
       <div className="flex items-center gap-1">
         <FaLocationDot></FaLocationDot>
-        San Diego
+        {contactInfo.location}
       </div>
       <div className="flex items-center gap-1">
         <MdEmail></MdEmail>
-        mark4elias@gmail.com
+        {contactInfo.email}
       </div>
       <div>
-        <a
-          href="https://www.linkedin.com/in/marcos-elias-382484226/"
-          target="_blank"
-          className="cool-link"
-        >
+        <a href={contactInfo.linkedin} target="_blank" className="cool-link">
           <FaLinkedin></FaLinkedin>LinkedIn
         </a>
       </div>
       <div>
-        <a
-          href="https://github.com/mark-elias"
-          target="_blank"
-          className="cool-link"
-        >
+        <a href={contactInfo.github} target="_blank" className="cool-link">
           <FaGithub></FaGithub>GitHub
         </a>
       </div>
