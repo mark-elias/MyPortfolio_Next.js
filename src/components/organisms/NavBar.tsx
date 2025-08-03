@@ -1,8 +1,10 @@
 "use client";
+import { useState } from "react";
+// assets
 import { IoClose } from "react-icons/io5";
 import { HiMenu } from "react-icons/hi";
-import { useState } from "react";
 import Link from "next/link";
+// constants
 import { navbarLinks, navbarBrand } from "@/src/constants/navbar.constants";
 
 const Navbar = () => {

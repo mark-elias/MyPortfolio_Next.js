@@ -19,12 +19,14 @@ function Contact() {
       </div>
       <div>
         <a href={contactInfo.linkedin} target="_blank" className="cool-link">
-          <FaLinkedin></FaLinkedin>LinkedIn
+          <FaLinkedin></FaLinkedin>
+          {contactInfo.linkedin}
         </a>
       </div>
       <div>
         <a href={contactInfo.github} target="_blank" className="cool-link">
-          <FaGithub></FaGithub>GitHub
+          <FaGithub></FaGithub>
+          {contactInfo.github}
         </a>
       </div>
     </section>
