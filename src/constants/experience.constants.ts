@@ -24,7 +24,7 @@ export const experience = [
       "Figma",
     ],
     responsibilities: [
-      "Promoted to Lead Full Stack Developer, mentoring new developers and coordinating technical architecture",
+      "Promoted to Lead Full Stack Developer, mentoring new developers and coordinating meetings",
       "Developed scalable applications using Next.js, TypeScript, Material UI, and TanStack Query with Zod validation",
       "Built RESTful APIs with Nest.js and MongoDB, implementing AWS S3 integration for file uploads",
       "Transformed Figma designs into responsive UI components following Atomic Design principles",
