@@ -2,11 +2,11 @@ export const skillCategories = [
   {
     id: "languages",
     name: "Languages",
-    skills: ["TypeScript", "JavaScript"],
+    skills: ["TypeScript"],
   },
   {
     id: "frontend-frameworks",
-    name: "Front End",
+    name: "Frontend Frameworks",
     skills: ["React", "Next.js"],
   },
   {
@@ -37,7 +37,7 @@ export const skillCategories = [
   {
     id: "forms-validation",
     name: "Forms & Data Validation",
-    skills: ["React-Hook-Form", "Zod", "Joi"],
+    skills: ["React-Hook-Form", "Zod"],
   },
   {
     id: "apis-data-fetching",
@@ -45,31 +45,31 @@ export const skillCategories = [
     skills: [
       "REST API's",
       "API Development",
-      "Axios",
       "TanStack Query",
+      "Axios",
       "Postman",
     ],
   },
   {
     id: "state-management",
     name: "Global State Management",
-    skills: ["Zustand", "Redux Toolkit"],
+    skills: ["Redux Toolkit"],
   },
   {
     id: "databases",
     name: "Databases",
-    skills: ["MongoDB", "mySQL", "PostgreSQL"],
+    skills: ["MongoDB"],
   },
   {
     id: "orms-odms",
-    name: "ORM's",
+    name: "ODMs & ORMs",
     skills: ["Mongoose", "Prisma"],
   },
-  {
-    id: "authentication",
-    name: "Authentication",
-    skills: ["Clerk", "NextAuth", "JWT", "Cookies", "bcrypt", "2FA/MFA"],
-  },
+  // {
+  //   id: "authentication",
+  //   name: "Authentication",
+  //   skills: ["Clerk", "NextAuth", "JWT", "Cookies", "bcrypt", "2FA/MFA"],
+  // },
   {
     id: "deployment-hosting",
     name: "Deployment & Hosting",
@@ -83,17 +83,7 @@ export const skillCategories = [
   {
     id: "tools-environment",
     name: "Tools & Environment",
-    skills: [
-      "Linux",
-      "Docker",
-      "NVM",
-      "Shell Scripting",
-      "Command Line",
-      "SSH",
-      "VS Code",
-      "Process Management",
-      "Environment Variables",
-    ],
+    skills: ["Unix/Linux", "Terminal/CLI", "SSH", "NVM", "Vim"],
   },
   {
     id: "collaboration",

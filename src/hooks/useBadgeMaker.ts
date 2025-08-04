@@ -28,7 +28,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   NPM: { backgroundColor: "#CB3837", textColor: "#FFFFFF" },
   Yarn: { backgroundColor: "#2C8EBB", textColor: "#FFFFFF" },
   Bun: { backgroundColor: "#f472b6", textColor: "#FFFFFF" },
-  Homebrew: { backgroundColor: "#FF6B35", textColor: "#FFFFFF" },
+  Homebrew: { backgroundColor: "#2e2a24", textColor: "#f9d094" },
 
   // CSS
   Tailwind: { backgroundColor: "#06B6D4", textColor: "#FFFFFF" },
@@ -82,20 +82,18 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   // Cloud Services & Tools
   "AWS S3": { backgroundColor: "#FF9900", textColor: "#000000" },
 
-  // Tools & Environment
+  // Development Environment
   Linux: { backgroundColor: "#FCC624", textColor: "#000000" },
-  Docker: { backgroundColor: "#2496ED", textColor: "#FFFFFF" },
-  NVM: { backgroundColor: "#339933", textColor: "#FFFFFF" },
-  "Shell Scripting": { backgroundColor: "#4A90E2", textColor: "#FFFFFF" },
-  "Command Line": { backgroundColor: "#2C3E50", textColor: "#FFFFFF" },
+  "Unix/Linux": { backgroundColor: "#FCC624", textColor: "#000000" },
+  "Terminal/CLI": { backgroundColor: "#2C3E50", textColor: "#FFFFFF" },
   SSH: { backgroundColor: "#E74C3C", textColor: "#FFFFFF" },
-  "Vim/Neovim": { backgroundColor: "#019733", textColor: "#FFFFFF" },
-  "VS Code": { backgroundColor: "#007ACC", textColor: "#FFFFFF" },
-  WebStorm: { backgroundColor: "#000000", textColor: "#FFFFFF" },
-  "Process Management": { backgroundColor: "#9B59B6", textColor: "#FFFFFF" },
-  "Environment Variables": { backgroundColor: "#F39C12", textColor: "#FFFFFF" },
+  Vim: { backgroundColor: "#019733", textColor: "#FFFFFF" },
+  NVM: { backgroundColor: "#339933", textColor: "#FFFFFF" },
 
-  // Other
+  // DevOps
+  Docker: { backgroundColor: "#2496ED", textColor: "#FFFFFF" },
+
+  // Collaboration
   Figma: { backgroundColor: "#8B5CF6", textColor: "#FFFFFF" },
   Slack: { backgroundColor: "#4A154B", textColor: "#FFFFFF" },
   Jira: { backgroundColor: "#0052CC", textColor: "#FFFFFF" },
