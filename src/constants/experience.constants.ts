@@ -1,0 +1,43 @@
+export const experience = [
+  {
+    id: "xenara-ai-lead",
+    title: "Lead Full Stack Developer",
+    company: "Xenara AI",
+    type: "Contract",
+    period: "Nov 2024 - Current",
+    badges: [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Material UI",
+      "Tailwind",
+      "Nest.js",
+      "API Development",
+      "AWS S3",
+      "Postman",
+      "Git",
+      "MongoDB",
+      "Figma",
+    ],
+    responsibilities: [
+      "Promoted to Lead Full Stack Developer, mentoring new developers and coordinating technical architecture",
+      "Developed scalable applications using Next.js, TypeScript, Material UI, and TanStack Query with Zod validation",
+      "Built RESTful APIs with Nest.js and MongoDB, implementing AWS S3 integration for file uploads",
+      "Transformed Figma designs into responsive UI components following Atomic Design principles",
+      "Refactored and optimized code for scalability, maintainability, and best practices",
+    ],
+  },
+  {
+    id: "kreativstorm-frontend",
+    title: "Front-End Developer",
+    company: "Kreativstorm",
+    type: "Internship",
+    period: "August 2023 - October 2023",
+    badges: ["HTML", "CSS", "JavaScript", "Git"],
+    responsibilities: [
+      "Collaborated with international teams on group projects, using HTML, CSS, and JavaScript to develop responsive frontend websites.",
+      "Worked remotely with an industry expert, focusing on the importance of communication, collaboration, and best practices in web development.",
+      "Utilized Git and GitHub for version control, enhancing teamwork and code management in a remote, global environment.",
+    ],
+  },
+] as const;
