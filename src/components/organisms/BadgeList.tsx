@@ -1,7 +1,7 @@
 import { useBadgeMaker } from "@/src/hooks/useBadgeMaker";
 
 interface Props {
-  badgeList: string[];
+  badgeList: readonly string[];
 }
 
 function BadgeList({ badgeList }: Props) {
