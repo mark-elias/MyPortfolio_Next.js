@@ -18,7 +18,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
 
   // Backend & Runtimes
   "Node.js": { backgroundColor: "#339933", textColor: "#FFFFFF" },
-  "Bun.js": { backgroundColor: "#000000", textColor: "#FFFFFF" },
+  "Bun.js": { backgroundColor: "#f472b6", textColor: "#FFFFFF" },
 
   // Backend Frameworks
   "Express.js": { backgroundColor: "#000000", textColor: "#FFFFFF" },
@@ -27,7 +27,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   // Package Managers
   NPM: { backgroundColor: "#CB3837", textColor: "#FFFFFF" },
   Yarn: { backgroundColor: "#2C8EBB", textColor: "#FFFFFF" },
-  Bun: { backgroundColor: "#000000", textColor: "#FFFFFF" },
+  Bun: { backgroundColor: "#f472b6", textColor: "#FFFFFF" },
   Homebrew: { backgroundColor: "#FF6B35", textColor: "#FFFFFF" },
 
   // CSS
