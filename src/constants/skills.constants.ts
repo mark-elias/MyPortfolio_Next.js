@@ -10,14 +10,9 @@ export const skillCategories = [
     skills: ["React", "Next.js"],
   },
   {
-    id: "backend-runtimes",
-    name: "Back End",
-    skills: ["Node.js", "Bun.js"],
-  },
-  {
-    id: "backend-frameworks",
-    name: "Backend Frameworks",
-    skills: ["Express.js", "Nest.js"],
+    id: "backend-runtimes-frameworks",
+    name: "Backend Runtimes & Frameworks",
+    skills: ["Nest.js", "Node.js", "Bun.js", "Express.js"],
   },
   {
     id: "package-managers",
@@ -81,9 +76,9 @@ export const skillCategories = [
     skills: ["AWS S3"],
   },
   {
-    id: "tools-environment",
-    name: "Tools & Environment",
-    skills: ["Unix/Linux", "Terminal/CLI", "SSH", "NVM", "Vim"],
+    id: "development-environment",
+    name: "Development Environment",
+    skills: ["Unix/Linux", "Terminal/CLI", "NVM", "Vim", "SSH"],
   },
   {
     id: "collaboration",
