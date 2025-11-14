@@ -13,12 +13,12 @@ function ExperiencePage() {
             <span>{exp.type}</span>
             <p className="text-sm">{exp.period}</p>
             <BadgeList badgeList={exp.badges} />
-            <ul className="list-disc ml-8 mt-5">
+          <ul className="list-disc ml-8 mt-5">
               {exp.responsibilities.map((responsibility, index) => (
                 <li key={index}>{responsibility}</li>
               ))}
-            </ul>
-          </div>
+          </ul>
+        </div>
         ))}
       </div>
     </section>
