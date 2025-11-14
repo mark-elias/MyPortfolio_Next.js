@@ -2,38 +2,31 @@ export const skillCategories = [
   {
     id: "languages",
     name: "Languages",
-    skills: ["TypeScript"],
+    skills: ["TypeScript", "JavaScript"],
   },
   {
-    id: "frontend-frameworks",
-    name: "Frontend Frameworks",
+    id: "frontend",
+    name: "Frontend",
     skills: ["React", "Next.js"],
   },
   {
-    id: "backend-runtimes-frameworks",
-    name: "Backend Runtimes & Frameworks",
+    id: "backend",
+    name: "Backend",
     skills: ["Nest.js", "Node.js", "Bun.js", "Express.js"],
   },
+  // Databases
   {
-    id: "package-managers",
-    name: "Package Managers",
-    skills: ["NPM", "Yarn", "Bun", "Homebrew"],
+    id: "databases",
+    name: "Databases",
+    skills: ["MongoDB"],
   },
-  {
-    id: "css-frameworks",
-    name: "CSS",
-    skills: ["Tailwind", "Material UI", "Chakra UI", "Bootstrap"],
-  },
+  // Version Control
   {
     id: "version-control",
     name: "Version Control",
     skills: ["Git", "GitHub"],
   },
-  {
-    id: "forms-validation",
-    name: "Forms & Data Validation",
-    skills: ["React-Hook-Form", "Zod"],
-  },
+  // APIs & Data Fetching
   {
     id: "apis-data-fetching",
     name: "API's & Data Fetching",
@@ -45,41 +38,62 @@ export const skillCategories = [
       "Postman",
     ],
   },
+  // Authentication
+  {
+    id: "authentication",
+    name: "Authentication",
+    skills: ["Passport.js", "jwt", "cookies", "bcrypt"],
+  },
+
+  {
+    id: "css-frameworks",
+    name: "CSS",
+    skills: ["Tailwind", "Material UI", "Chakra UI", "Bootstrap"],
+  },
+
+  {
+    id: "forms-validation",
+    name: "Forms & Data Validation",
+    skills: ["React-Hook-Form", "Zod"],
+  },
+
   {
     id: "state-management",
     name: "Global State Management",
     skills: ["Redux Toolkit"],
   },
-  {
-    id: "databases",
-    name: "Databases",
-    skills: ["MongoDB"],
-  },
-  {
-    id: "orms-odms",
-    name: "ODMs & ORMs",
-    skills: ["Mongoose", "Prisma"],
-  },
+
+  // ORMS & ODMs
   // {
-  //   id: "authentication",
-  //   name: "Authentication",
-  //   skills: ["Clerk", "NextAuth", "JWT", "Cookies", "bcrypt", "2FA/MFA"],
+  //   id: "orms-odms",
+  //   name: "ODMs & ORMs",
+  //   skills: ["Mongoose", "Prisma"],
   // },
-  {
-    id: "deployment-hosting",
-    name: "Deployment & Hosting",
-    skills: ["Vercel", "Render", "Hostinger", "GitHub Pages"],
-  },
+
   {
     id: "cloud-services",
     name: "Cloud Services & Tools",
     skills: ["AWS S3"],
   },
+  // Development Environment
   {
     id: "development-environment",
     name: "Development Environment",
     skills: ["Unix/Linux", "Terminal/CLI", "NVM", "Vim", "SSH"],
   },
+  // Package Managers
+  {
+    id: "package-managers",
+    name: "Package Managers",
+    skills: ["NPM", "Yarn", "PNPM", "Bun", "Homebrew"],
+  },
+  // Deployment & Hosting
+  {
+    id: "deployment-hosting",
+    name: "Deployment & Hosting",
+    skills: ["Vercel", "Render", "Hostinger", "GitHub Pages"],
+  },
+  // Collaboration
   {
     id: "collaboration",
     name: "Collaboration",
@@ -93,5 +107,5 @@ export const skillsToLearn = [
   "Shadcn UI",
   "React Native",
   "Deno",
-  "Bun",
+  "Docker",
 ] as const;

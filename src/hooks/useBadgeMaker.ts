@@ -27,6 +27,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   // Package Managers
   NPM: { backgroundColor: "#CB3837", textColor: "#FFFFFF" },
   Yarn: { backgroundColor: "#2C8EBB", textColor: "#FFFFFF" },
+  PNPM: { backgroundColor: "#f9ad00", textColor: "#242526" },
   Bun: { backgroundColor: "#f472b6", textColor: "#FFFFFF" },
   Homebrew: { backgroundColor: "#2e2a24", textColor: "#f9d094" },
 
@@ -38,7 +39,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
 
   // Forms & Data Validation
   "React-Hook-Form": { backgroundColor: "#EC5990", textColor: "#FFFFFF" },
-  Zod: { backgroundColor: "#3F3D56", textColor: "#FFFFFF" },
+  Zod: { backgroundColor: "#3f89fd", textColor: "#FFFFFF" },
   Joi: { backgroundColor: "#0A8A94", textColor: "#FFFFFF" },
 
   // APIs & Data Fetching
@@ -68,8 +69,9 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   // Authentication
   Clerk: { backgroundColor: "#3B82F6", textColor: "#FFFFFF" },
   NextAuth: { backgroundColor: "#000000", textColor: "#FFFFFF" },
-  JWT: { backgroundColor: "#D63AFF", textColor: "#FFFFFF" },
-  Cookies: { backgroundColor: "#FF6B35", textColor: "#FFFFFF" },
+  "Passport.js": { backgroundColor: "#35df79", textColor: "#000000" },
+  jwt: { backgroundColor: "#D63AFF", textColor: "#FFFFFF" },
+  cookies: { backgroundColor: "#dd9752", textColor: "#000" },
   bcrypt: { backgroundColor: "#3498DB", textColor: "#FFFFFF" },
   "2FA/MFA": { backgroundColor: "#1ABC9C", textColor: "#FFFFFF" },
 
