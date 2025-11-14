@@ -70,8 +70,8 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   Clerk: { backgroundColor: "#3B82F6", textColor: "#FFFFFF" },
   NextAuth: { backgroundColor: "#000000", textColor: "#FFFFFF" },
   "Passport.js": { backgroundColor: "#35df79", textColor: "#000000" },
-  jwt: { backgroundColor: "#D63AFF", textColor: "#FFFFFF" },
-  cookies: { backgroundColor: "#dd9752", textColor: "#000" },
+  JWT: { backgroundColor: "#D63AFF", textColor: "#FFFFFF" },
+  Cookies: { backgroundColor: "#dd9752", textColor: "#000" },
   bcrypt: { backgroundColor: "#3498DB", textColor: "#FFFFFF" },
   "2FA/MFA": { backgroundColor: "#1ABC9C", textColor: "#FFFFFF" },
 
@@ -83,6 +83,9 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
 
   // Cloud Services & Tools
   "AWS S3": { backgroundColor: "#FF9900", textColor: "#000000" },
+
+  // Real-time Communication
+  WebSockets: { backgroundColor: "#010101", textColor: "#FFFFFF" },
 
   // Development Environment
   Linux: { backgroundColor: "#FCC624", textColor: "#000000" },

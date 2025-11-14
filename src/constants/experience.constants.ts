@@ -6,22 +6,45 @@ export const experience = [
     type: "Contract",
     period: "Nov 2024 - Current",
     badges: [
+      // Core Tech Stack
       "TypeScript",
       "Next.js",
       "React",
-      "Material UI",
       "Nest.js",
+      "MongoDB",
+      "Mongoose",
+
+      // Authentication & Security
+      "JWT",
+      "Cookies",
+      "Passport.js",
+
+      // API & Data Fetching
       "API Development",
       "TanStack Query",
-      "Postman",
-      "Git",
-      "MongoDB",
-      "AWS S3",
-      "Yarn",
+      "Axios",
+
+      // State Management & Forms
+      "Redux Toolkit",
       "React-Hook-Form",
       "Zod",
-      "Redux Toolkit",
+
+      // Real-time & Cloud
+      "WebSockets",
+      "AWS S3",
+
+      // Frontend Styling
+      "Material UI",
+
+      // Development Tools
+      "Postman",
+      "Git",
+      "Yarn",
+
+      // Collaboration Tools
       "Figma",
+      "Slack",
+      "Jira",
     ],
     responsibilities: [
       "Promoted to Lead Full Stack Developer, leading a team of 15+ developers over time and conducting 13+ technical interviews for intern candidates",
@@ -34,7 +57,7 @@ export const experience = [
       "Engineered full-stack AWS S3 integration for image/logo uploads, building backend APIs with Nest.js, configuring S3 bucket integration, and developing frontend upload UI",
       "Implemented WebSocket functionality for real-time updates and optimized settings page data fetching, reducing initial page load time from 2+ seconds to under 500ms (75%+ improvement)",
       "Refactored frontend architecture by implementing Redux Toolkit for global state management, eliminating prop drilling and improving code maintainability",
-      "Built and maintained RESTful APIs with Nest.js, MongoDB, and Mongoose, implementing authentication guards, error handling, and API testing with Postman",
+      "Built and maintained RESTful APIs with Nest.js, MongoDB, and Mongoose, designing database schemas and DTOs, implementing authentication guards, error handling, and API testing with Postman",
       "Integrated AI team's ML server APIs and developed forms with React-Hook-Form and Zod validation for user input handling and data integrity",
       "Developed integrations page, settings functionality, and various full-stack features end-to-end with TanStack Query and Axios for efficient data fetching",
       "Delivered 30+ approved pull requests for feature development across frontend and backend, maintaining high code quality and resolving 15+ bugs",
