@@ -42,7 +42,7 @@ export const skillCategories = [
   {
     id: "authentication",
     name: "Authentication",
-    skills: ["Passport.js", "jwt", "cookies", "bcrypt"],
+    skills: ["Passport.js", "JWT", "Cookies", "bcrypt"],
   },
 
   {
