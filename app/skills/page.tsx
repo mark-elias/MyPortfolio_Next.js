@@ -17,7 +17,7 @@ function SkillsPage() {
           </div>
         ))}
       </div>
-      <p className="mt-12">
+      <p className="mt-12 border border-customPrimary border-2 rounded-lg p-2">
         👍 Still want to learn these: {skillsToLearn.join(", ")}
       </p>
     </section>
