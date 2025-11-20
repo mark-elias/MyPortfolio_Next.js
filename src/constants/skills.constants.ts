@@ -1,35 +1,54 @@
 export const skillCategories = [
+  // 🎯 TIER 1: CORE STACK (What you're hired for)
   {
     id: "languages",
     name: "Languages",
     skills: ["TypeScript", "JavaScript"],
   },
   {
-    id: "frontend",
+    id: "frontend-frameworks",
     name: "Frontend",
-    skills: ["React", "Next.js"],
+    skills: ["Next.js", "React"],
   },
   {
-    id: "backend",
+    id: "backend-frameworks",
     name: "Backend",
-    skills: ["Nest.js", "Node.js", "Bun.js", "Express.js"],
+    skills: ["Nest.js", "Express.js", "Node.js"],
   },
-  // Databases
+  // {
+  //   id: "backend-runtimes",
+  //   name: "Backend Runtimes",
+  //   skills: ["Node.js", "Bun.js"],
+  // },
+
+  // 🎨 TIER 2: UI & STYLING (Full-stack capability)
+  {
+    id: "css-frameworks",
+    name: "CSS & UI",
+    skills: ["Tailwind", "Material UI", "shadcn/ui", "Chakra UI"],
+  },
+
+  // 💾 TIER 3: DATA MANAGEMENT (Critical for real apps)
   {
     id: "databases",
     name: "Databases",
     skills: ["MongoDB"],
   },
-  // Version Control
   {
-    id: "version-control",
-    name: "Version Control",
-    skills: ["Git", "GitHub"],
+    id: "state-management",
+    name: "State Management",
+    skills: ["Redux Toolkit"],
   },
-  // APIs & Data Fetching
+  // {
+  //   id: "orms-odms",
+  //   name: "ODMs & ORMs",
+  //   skills: ["Mongoose", "Prisma"],
+  // },
+
+  // 🔌 TIER 4: API & FORMS (Essential full-stack)
   {
     id: "apis-data-fetching",
-    name: "API's & Data Fetching",
+    name: "APIs & Data Fetching",
     skills: [
       "REST API's",
       "API Development",
@@ -38,62 +57,64 @@ export const skillCategories = [
       "Postman",
     ],
   },
-  // Authentication
-  {
-    id: "authentication",
-    name: "Authentication",
-    skills: ["Passport.js", "JWT", "Cookies", "bcrypt"],
-  },
-
-  {
-    id: "css-frameworks",
-    name: "CSS",
-    skills: ["Tailwind", "Material UI", "Chakra UI", "Bootstrap"],
-  },
-
   {
     id: "forms-validation",
-    name: "Forms & Data Validation",
+    name: "Forms & Validation",
     skills: ["React-Hook-Form", "Zod"],
   },
 
+  // 🔐 TIER 5: BUSINESS LOGIC (Real-world experience)
   {
-    id: "state-management",
-    name: "Global State Management",
-    skills: ["Redux Toolkit"],
+    id: "authentication",
+    name: "Authentication",
+    skills: ["JWT", "Passport.js", "Cookies", "bcrypt"],
+  },
+  // {
+  //   id: "payments",
+  //   name: "Payments",
+  //   skills: ["Stripe"],
+  // },
+  {
+    id: "real-time-communication",
+    name: "Real-time Communication",
+    skills: ["WebSockets"],
   },
 
-  // ORMS & ODMs
-  // {
-  //   id: "orms-odms",
-  //   name: "ODMs & ORMs",
-  //   skills: ["Mongoose", "Prisma"],
-  // },
-
+  // ☁️ TIER 6: CLOUD & DEVOPS (Shows scalability knowledge)
   {
     id: "cloud-services",
-    name: "Cloud Services & Tools",
-    skills: ["AWS S3"],
+    name: "Cloud Services",
+    skills: ["AWS S3", "AWS EC2"],
   },
-  // Development Environment
+  // {
+  //   id: "devops-infrastructure",
+  //   name: "DevOps & Infrastructure",
+  //   skills: ["Docker", "GitHub Actions", "Nginx", "Caddy"],
+  // },
+
+  // 🛠️ TIER 7: DEVELOPMENT TOOLS (Supporting skills)
   {
-    id: "development-environment",
-    name: "Development Environment",
-    skills: ["Unix/Linux", "Terminal/CLI", "NVM", "Vim", "SSH"],
+    id: "version-control",
+    name: "Version Control",
+    skills: ["Git", "GitHub"],
   },
-  // Package Managers
   {
     id: "package-managers",
     name: "Package Managers",
-    skills: ["NPM", "Yarn", "PNPM", "Bun", "Homebrew"],
+    skills: ["Yarn", "NPM", "PNPM"],
   },
-  // Deployment & Hosting
   {
-    id: "deployment-hosting",
-    name: "Deployment & Hosting",
-    skills: ["Vercel", "Render", "Hostinger", "GitHub Pages"],
+    id: "development-environment",
+    name: "Development Environment",
+    skills: ["Unix/Linux", "Terminal/CLI", "SSH", "Vim", "NVM"],
   },
-  // Collaboration
+
+  // 🚀 TIER 8: DEPLOYMENT & COLLABORATION (Team readiness)
+  {
+    id: "deployment",
+    name: "Deployment",
+    skills: ["Vercel", "Render", "GitHub Pages"],
+  },
   {
     id: "collaboration",
     name: "Collaboration",
@@ -102,10 +123,8 @@ export const skillCategories = [
 ] as const;
 
 export const skillsToLearn = [
-  "Stripe payments",
-  "Supabase",
-  "Shadcn UI",
-  "React Native",
-  "Deno",
+  "PostgreSQL",
   "Docker",
+  "Bun.js",
+  "Hono",
 ] as const;

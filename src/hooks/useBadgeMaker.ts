@@ -23,6 +23,8 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   // Backend Frameworks
   "Express.js": { backgroundColor: "#000000", textColor: "#FFFFFF" },
   "Nest.js": { backgroundColor: "#E0234E", textColor: "#FFFFFF" },
+  Hono: { backgroundColor: "#E36002", textColor: "#FFFFFF" },
+  Fastify: { backgroundColor: "#000000", textColor: "#FFFFFF" },
 
   // Package Managers
   NPM: { backgroundColor: "#CB3837", textColor: "#FFFFFF" },
@@ -36,6 +38,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   "Material UI": { backgroundColor: "#0081CB", textColor: "#FFFFFF" },
   "Chakra UI": { backgroundColor: "#319795", textColor: "#FFFFFF" },
   Bootstrap: { backgroundColor: "#7952B3", textColor: "#FFFFFF" },
+  "shadcn/ui": { backgroundColor: "#000000", textColor: "#FFFFFF" },
 
   // Forms & Data Validation
   "React-Hook-Form": { backgroundColor: "#EC5990", textColor: "#FFFFFF" },
@@ -75,6 +78,9 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   bcrypt: { backgroundColor: "#3498DB", textColor: "#FFFFFF" },
   "2FA/MFA": { backgroundColor: "#1ABC9C", textColor: "#FFFFFF" },
 
+  // Payments
+  Stripe: { backgroundColor: "#635BFF", textColor: "#FFFFFF" },
+
   // Deployment & Hosting
   Vercel: { backgroundColor: "#000000", textColor: "#FFFFFF" },
   Render: { backgroundColor: "#46E3B7", textColor: "#000000" },
@@ -83,6 +89,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
 
   // Cloud Services & Tools
   "AWS S3": { backgroundColor: "#FF9900", textColor: "#000000" },
+  "AWS EC2": { backgroundColor: "#FF9900", textColor: "#000000" },
 
   // Real-time Communication
   WebSockets: { backgroundColor: "#010101", textColor: "#FFFFFF" },
@@ -95,8 +102,11 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   Vim: { backgroundColor: "#019733", textColor: "#FFFFFF" },
   NVM: { backgroundColor: "#339933", textColor: "#FFFFFF" },
 
-  // DevOps
+  // DevOps & Infrastructure
   Docker: { backgroundColor: "#2496ED", textColor: "#FFFFFF" },
+  "GitHub Actions": { backgroundColor: "#2088FF", textColor: "#FFFFFF" },
+  Nginx: { backgroundColor: "#009639", textColor: "#FFFFFF" },
+  Caddy: { backgroundColor: "#00C4A7", textColor: "#FFFFFF" },
 
   // Collaboration
   Figma: { backgroundColor: "#8B5CF6", textColor: "#FFFFFF" },
