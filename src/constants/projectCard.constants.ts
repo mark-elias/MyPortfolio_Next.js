@@ -6,7 +6,7 @@ import restaurantScreenshot from "@/src/assets/images/restaurant_screenshot.png"
 import rockPaperScissorsScreenshot from "@/src/assets/images/rockPaperScissors_screenshot.png";
 import kreativstormProjectScreenshot from "@/src/assets/images/kreativstormProject_screenshot.png";
 import weatherProjectScreenshot from "@/src/assets/images/weatherProject_screenshot.png";
-import easyBorderScreenshot from "@/src/assets/images/easyBorder_screenshot.png";
+import easyBorderScreenshot from "@/src/assets/images/easyBorder_screenshot2.png";
 
 export const projects = [
   {
