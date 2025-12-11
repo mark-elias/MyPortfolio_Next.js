@@ -107,6 +107,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   "GitHub Actions": { backgroundColor: "#2088FF", textColor: "#FFFFFF" },
   Nginx: { backgroundColor: "#009639", textColor: "#FFFFFF" },
   Caddy: { backgroundColor: "#00C4A7", textColor: "#FFFFFF" },
+  PM2: { backgroundColor: "#2B7CFC", textColor: "#FFFFFF" },
 
   // Collaboration
   Figma: { backgroundColor: "#8B5CF6", textColor: "#FFFFFF" },
