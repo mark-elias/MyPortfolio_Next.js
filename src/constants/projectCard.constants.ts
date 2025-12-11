@@ -6,8 +6,39 @@ import restaurantScreenshot from "@/src/assets/images/restaurant_screenshot.png"
 import rockPaperScissorsScreenshot from "@/src/assets/images/rockPaperScissors_screenshot.png";
 import kreativstormProjectScreenshot from "@/src/assets/images/kreativstormProject_screenshot.png";
 import weatherProjectScreenshot from "@/src/assets/images/weatherProject_screenshot.png";
+import easyBorderScreenshot from "@/src/assets/images/easyBorder_screenshot.png";
 
 export const projects = [
+  {
+    id: "easyborder",
+    title: "Easy Border",
+    description:
+      "COMING SOON. Border wait times app using Next.js, TypeScript, Tailwind, Nest.js, MongoDB, AWS S3 for image uploads, authentication with Passport.js, hosted on AWS EC2, with Github Actions for CI/CD.",
+    image: easyBorderScreenshot,
+    alt: "easy border project screenshot",
+    githubLink: "https://github.com/mark-elias/easyborder-backend",
+    badges: [
+      "Nest.js",
+      "TypeScript",
+      "Passport.js",
+      "JWT",
+      "Cookies",
+      "AWS EC2",
+      "AWS S3",
+      "PM2",
+      "GitHub Actions",
+      "MongoDB",
+      "Next.js",
+      "Tailwind",
+      "shadcn/ui",
+      "TanStack Query",
+      "Zustand",
+      "React-Hook-Form",
+      "Zod",
+      "Git",
+      "PNPM",
+    ],
+  },
   {
     id: "portfolio",
     title: "My Portfolio",
