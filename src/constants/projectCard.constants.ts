@@ -1,4 +1,4 @@
-import portfolioScreenshot from "@/src/assets/images/portfolio_screenshot.png";
+// import portfolioScreenshot from "@/src/assets/images/portfolio_screenshot.png";
 import mernBookstoreScreenshot from "@/src/assets/images/mernBookstore_screenshot.png";
 import gameHubScreenshot from "@/src/assets/images/gameHub_screenshot.png";
 import expenseTrackerScreenshot from "@/src/assets/images/expenseTracker_screenshot.png";
@@ -13,10 +13,10 @@ export const projects = [
     id: "easyborder",
     title: "Easy Border",
     description:
-      "COMING SOON. Border wait times app using Next.js, TypeScript, Tailwind, Nest.js, MongoDB, AWS S3 for image uploads, authentication with Passport.js, hosted on AWS EC2, with Github Actions for CI/CD.",
+      "COMING SOON. Border wait times app where users can post comments and share images with other users about their border wait experience. Will be built with Nest.js on the backend with AWS S3 for image uploads. Authentication with Passport.js and JWT. Next.js and Tailwind for the frontend. Will be hosted on AWS EC2 with continuous deployment using GitHub Actions.",
     image: easyBorderScreenshot,
     alt: "easy border project screenshot",
-    siteLink: "44.195.169.220:3001/api",
+    siteLink: "http://44.195.169.220:3001/api",
     githubLink: "https://github.com/mark-elias/easyborder-backend",
     badges: [
       "Nest.js",
@@ -40,17 +40,17 @@ export const projects = [
       "PNPM",
     ],
   },
-  {
-    id: "portfolio",
-    title: "My Portfolio",
-    description:
-      "Remade my portfolio with Next.js (previously built with React) so that it is easier to maintain and update.",
-    image: portfolioScreenshot,
-    alt: "marcos elias portfolio project screenshot",
-    siteLink: "https://marcoseliasportfolio.com",
-    githubLink: "https://github.com/mark-elias/MyPortfolio_Next.js",
-    badges: ["Next.js", "TypeScript", "Tailwind", "Git", "Vercel"],
-  },
+  // {
+  //   id: "portfolio",
+  //   title: "My Portfolio",
+  //   description:
+  //     "Remade my portfolio with Next.js (previously built with React) so that it is easier to maintain and update.",
+  //   image: portfolioScreenshot,
+  //   alt: "marcos elias portfolio project screenshot",
+  //   siteLink: "https://marcoseliasportfolio.com",
+  //   githubLink: "https://github.com/mark-elias/MyPortfolio_Next.js",
+  //   badges: ["Next.js", "TypeScript", "Tailwind", "Git", "Vercel"],
+  // },
   {
     id: "mern-bookstore",
     title: "MERN Bookstore",
