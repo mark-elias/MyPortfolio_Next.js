@@ -16,6 +16,7 @@ export const projects = [
       "COMING SOON. Border wait times app using Next.js, TypeScript, Tailwind, Nest.js, MongoDB, AWS S3 for image uploads, authentication with Passport.js, hosted on AWS EC2, with Github Actions for CI/CD.",
     image: easyBorderScreenshot,
     alt: "easy border project screenshot",
+    siteLink: "44.195.169.220:3001/api",
     githubLink: "https://github.com/mark-elias/easyborder-backend",
     badges: [
       "Nest.js",
