@@ -13,7 +13,7 @@ export const skillCategories = [
   {
     id: "backend-frameworks",
     name: "Backend",
-    skills: ["Nest.js", "Express.js", "Node.js"],
+    skills: ["Nest.js", "Express.js", "Node.js", "Bun.js"],
   },
   // {
   //   id: "backend-runtimes",
