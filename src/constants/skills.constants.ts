@@ -32,7 +32,7 @@ export const skillCategories = [
   {
     id: "databases",
     name: "Databases",
-    skills: ["MongoDB"],
+    skills: ["MongoDB", "MySQL"],
   },
   {
     id: "state-management",
