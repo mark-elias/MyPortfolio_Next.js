@@ -13,7 +13,7 @@ export const skillCategories = [
   {
     id: "backend-frameworks",
     name: "Backend",
-    skills: ["Nest.js", "Express.js", "Node.js"],
+    skills: ["Nest.js", "Express.js", "Node.js", "Bun.js"],
   },
   // {
   //   id: "backend-runtimes",
@@ -86,11 +86,12 @@ export const skillCategories = [
     name: "Cloud Services",
     skills: ["AWS S3", "AWS EC2"],
   },
-  // {
-  //   id: "devops-infrastructure",
-  //   name: "DevOps & Infrastructure",
-  //   skills: ["Docker", "GitHub Actions", "Nginx", "Caddy"],
-  // },
+   {
+     id: "devops-infrastructure",
+     name: "DevOps & Infrastructure",
+  // skills: ["Docker", "GitHub Actions", "Nginx", "Caddy"],
+skills: ["Docker", "GitHub Actions"],
+   },
 
   // 🛠️ TIER 7: DEVELOPMENT TOOLS (Supporting skills)
   {
@@ -123,8 +124,6 @@ export const skillCategories = [
 ] as const;
 
 export const skillsToLearn = [
-  "PostgreSQL",
-  "Docker",
-  "Bun.js",
+  "Stripe",
   "Hono",
 ] as const;
