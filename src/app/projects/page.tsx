@@ -1,5 +1,7 @@
-import { ProjectCard } from "@/src/components/organisms";
-import { projects } from "@/src/constants/projectCard.constants";
+// constants
+import { projects } from "@/constants/projectCard.constants";
+// components
+import { ProjectCard } from "@/components/organisms";
 
 function ProjectsPage() {
   return (

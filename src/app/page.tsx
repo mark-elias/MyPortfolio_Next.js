@@ -1,4 +1,5 @@
-import { Contact, Hero, Summary } from "@/src/components/organisms";
+// components
+import { Contact, Hero, Summary } from "@/components/organisms";
 
 function HomePage() {
   return (

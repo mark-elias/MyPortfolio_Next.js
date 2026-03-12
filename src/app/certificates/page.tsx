@@ -1,5 +1,5 @@
-import React from "react";
-import { certificates } from "@/src/constants/certificates.constants";
+// constants
+import { certificates } from "@/constants/certificates.constants";
 
 function CertificatesPage() {
   return (

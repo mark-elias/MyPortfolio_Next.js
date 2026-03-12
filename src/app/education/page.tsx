@@ -1,6 +1,7 @@
 import Image from "next/image";
-import React from "react";
-import { education, educationImage } from "@/src/constants/education.constants";
+// constants
+import { education, educationImage } from "@/constants/education.constants";
+// assets
 import educationImageFile from "@/src/assets/images/education-image.jpg";
 
 function EducationPage() {

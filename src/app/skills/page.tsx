@@ -1,8 +1,7 @@
-import { BadgeList } from "@/src/components/organisms";
-import {
-  skillCategories,
-  skillsToLearn,
-} from "@/src/constants/skills.constants";
+// constants
+import { skillCategories, skillsToLearn } from "@/constants/skills.constants";
+// components
+import { BadgeList } from "@/components/organisms";
 
 function SkillsPage() {
   return (

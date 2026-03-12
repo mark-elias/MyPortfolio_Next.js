@@ -1,5 +1,7 @@
-import { BadgeList } from "@/src/components/organisms";
-import { experience } from "@/src/constants/experience.constants";
+// constants
+import { experience } from "@/constants/experience.constants";
+// components
+import { BadgeList } from "@/components/organisms";
 
 function ExperiencePage() {
   return (
@@ -13,12 +15,12 @@ function ExperiencePage() {
             <span>{exp.type}</span>
             <p className="text-sm">{exp.period}</p>
             <BadgeList badgeList={exp.badges} />
-          <ul className="list-disc ml-8 mt-5">
+            <ul className="list-disc ml-8 mt-5">
               {exp.responsibilities.map((responsibility, index) => (
                 <li key={index}>{responsibility}</li>
               ))}
-          </ul>
-        </div>
+            </ul>
+          </div>
         ))}
       </div>
     </section>
