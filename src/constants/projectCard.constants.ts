@@ -35,6 +35,7 @@ export const projects: Project[] = [
       "GitHub Actions",
       "MongoDB",
       "Next.js",
+      "Bun",
       "Tailwind",
       "shadcn/ui",
       "TanStack Query",
