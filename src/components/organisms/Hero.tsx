@@ -1,4 +1,4 @@
-import { heroText } from "@/src/constants/hero.constants";
+import { heroText } from "@/constants/hero.constants";
 
 function Hero() {
   return (

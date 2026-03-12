@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 // constants
-import { contactInfo } from "@/src/constants/contact.constants";
+import { contactInfo } from "@/constants/contact.constants";
 
 function Contact() {
   return (

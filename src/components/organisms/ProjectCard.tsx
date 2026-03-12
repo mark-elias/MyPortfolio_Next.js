@@ -3,9 +3,9 @@ import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { TbWorldBolt } from "react-icons/tb";
 // hooks
-import { useBadgeMaker } from "@/src/hooks/useBadgeMaker";
+import { useBadgeMaker } from "@/hooks/useBadgeMaker";
 // Project type/interface
-import { Project } from "@/src/types/project";
+import { Project } from "@/types/project";
 
 function ProjectCard({
   image,

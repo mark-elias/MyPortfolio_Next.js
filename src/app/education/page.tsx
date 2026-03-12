@@ -2,7 +2,7 @@ import Image from "next/image";
 // constants
 import { education, educationImage } from "@/constants/education.constants";
 // assets
-import educationImageFile from "@/src/assets/images/education-image.jpg";
+import educationImageFile from "../../assets/images/education-image.jpg";
 
 function EducationPage() {
   return (

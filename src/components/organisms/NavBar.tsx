@@ -5,7 +5,7 @@ import { IoClose } from "react-icons/io5";
 import { HiMenu } from "react-icons/hi";
 import Link from "next/link";
 // constants
-import { navbarLinks, navbarBrand } from "@/src/constants/navbar.constants";
+import { navbarLinks, navbarBrand } from "@/constants/navbar.constants";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

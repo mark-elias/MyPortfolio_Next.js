@@ -1,5 +1,5 @@
 // constants
-import { summaryText } from "@/src/constants/summary.constants";
+import { summaryText } from "@/constants/summary.constants";
 
 function Summary() {
   return (

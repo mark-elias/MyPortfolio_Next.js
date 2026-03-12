@@ -1,5 +1,5 @@
 // constants
-import { footerText } from "@/src/constants/footer.constants";
+import { footerText } from "@/constants/footer.constants";
 
 function Footer() {
   return (
