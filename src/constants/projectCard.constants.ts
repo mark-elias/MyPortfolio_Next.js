@@ -7,8 +7,10 @@ import rockPaperScissorsScreenshot from "@/src/assets/images/rockPaperScissors_s
 import kreativstormProjectScreenshot from "@/src/assets/images/kreativstormProject_screenshot.png";
 import weatherProjectScreenshot from "@/src/assets/images/weatherProject_screenshot.png";
 import easyBorderScreenshot from "@/src/assets/images/easyBorder_screenshot2.png";
+// next.js
+import { Project } from "../types/project";
 
-export const projects = [
+export const projects: Project[] = [
   {
     id: "easyborder",
     title: "Easy Border",
@@ -16,8 +18,11 @@ export const projects = [
       "COMING SOON. Border wait times app where users can post comments and share images with other users about their border wait experience. Will be built with Nest.js on the backend with AWS S3 for image uploads. Authentication with Passport.js and JWT. Next.js and Tailwind for the frontend. TanStack Query for data fetching and Zustand for Global State Management. Will be hosted on AWS EC2 with continuous deployment using Docker and GitHub Actions.",
     image: easyBorderScreenshot,
     alt: "easy border project screenshot",
-    siteLink: "http://44.195.169.220:3001/api",
+    siteLink: "https://easyborder-frontend.vercel.app/",
     githubLink: "https://github.com/mark-elias/easyborder-backend",
+    githubLinkTitle: "backend",
+    secondGithubLink: "https://github.com/mark-elias/easyborder-frontend",
+    secondGithubLinkTitle: "frontend",
     badges: [
       "Nest.js",
       "TypeScript",

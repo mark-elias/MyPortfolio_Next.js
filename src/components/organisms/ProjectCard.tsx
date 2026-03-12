@@ -1,19 +1,11 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 // assets
 import { FaGithub } from "react-icons/fa";
 import { TbWorldBolt } from "react-icons/tb";
 // hooks
 import { useBadgeMaker } from "@/src/hooks/useBadgeMaker";
-
-interface Props {
-  image: StaticImageData;
-  alt: string;
-  title: string;
-  description: string;
-  siteLink?: string;
-  githubLink?: string;
-  badges: readonly string[];
-}
+// Project type/interface
+import { Project } from "@/src/types/project";
 
 function ProjectCard({
   image,
@@ -22,8 +14,11 @@ function ProjectCard({
   description,
   siteLink,
   githubLink,
+  githubLinkTitle,
+  secondGithubLink,
+  secondGithubLinkTitle,
   badges,
-}: Props) {
+}: Omit<Project, "id">) {
   // Hook for making badges
   const badgeStyles = useBadgeMaker(badges);
 
@@ -58,8 +53,19 @@ function ProjectCard({
             className="cool-link"
           >
             <FaGithub />
-            GitHub Repo
+            {githubLinkTitle || "GitHub Repo"}
           </a>
+          {secondGithubLink && (
+            <a
+              href={secondGithubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cool-link"
+            >
+              <FaGithub />
+              {secondGithubLinkTitle || "GitHub Repo"}
+            </a>
+          )}
         </div>
         <div className="flex flex-wrap gap-1 mt-7">
           {badgeStyles.map((badgeStyle) => (

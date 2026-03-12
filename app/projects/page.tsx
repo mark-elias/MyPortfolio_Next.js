@@ -16,6 +16,15 @@ function ProjectsPage() {
             siteLink={project.siteLink}
             githubLink={project.githubLink}
             badges={project.badges}
+            {...(project.githubLinkTitle && {
+              githubLinkTitle: project.githubLinkTitle,
+            })}
+            {...(project.secondGithubLink && {
+              secondGithubLink: project.secondGithubLink,
+            })}
+            {...(project.secondGithubLinkTitle && {
+              secondGithubLinkTitle: project.secondGithubLinkTitle,
+            })}
           />
         ))}
       </div>
