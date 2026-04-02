@@ -1,12 +1,13 @@
 // components
-import { Contact, Hero, Summary } from "@/components/organisms";
+import { Contact, Hero, Summary, CoreStack } from "@/components/organisms";
 
 function HomePage() {
   return (
     <div>
-      <Hero></Hero>
-      <Contact></Contact>
-      <Summary></Summary>
+      <Hero />
+      <CoreStack />
+      <Summary />
+      <Contact />
     </div>
   );
 }

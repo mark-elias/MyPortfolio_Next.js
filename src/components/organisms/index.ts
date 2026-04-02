@@ -7,5 +7,15 @@ import Summary from "./Summary";
 import Contact from "./Contact";
 import BadgeList from "./BadgeList";
 import ProjectCard from "./ProjectCard";
+import CoreStack from "./CoreStack";
 
-export { Navbar, Footer, Hero, Summary, Contact, BadgeList, ProjectCard };
+export {
+  Navbar,
+  Footer,
+  Hero,
+  Summary,
+  Contact,
+  BadgeList,
+  ProjectCard,
+  CoreStack,
+};

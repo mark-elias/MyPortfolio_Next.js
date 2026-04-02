@@ -88,6 +88,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   "GitHub Pages": { backgroundColor: "#181717", textColor: "#FFFFFF" },
 
   // Cloud Services & Tools
+  "AWS": { backgroundColor: "#FF9900", textColor: "#000000" },
   "AWS S3": { backgroundColor: "#FF9900", textColor: "#000000" },
   "AWS EC2": { backgroundColor: "#FF9900", textColor: "#000000" },
 
