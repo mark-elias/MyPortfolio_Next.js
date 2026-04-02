@@ -1,12 +1,13 @@
 // import portfolioScreenshot from "@/src/assets/images/portfolio_screenshot.png";
-import mernBookstoreScreenshot from "@/src/assets/images/mernBookstore_screenshot.png";
-import gameHubScreenshot from "@/src/assets/images/gameHub_screenshot.png";
-import expenseTrackerScreenshot from "@/src/assets/images/expenseTracker_screenshot.png";
-import restaurantScreenshot from "@/src/assets/images/restaurant_screenshot.png";
-import rockPaperScissorsScreenshot from "@/src/assets/images/rockPaperScissors_screenshot.png";
-import kreativstormProjectScreenshot from "@/src/assets/images/kreativstormProject_screenshot.png";
-import weatherProjectScreenshot from "@/src/assets/images/weatherProject_screenshot.png";
-import easyBorderScreenshot from "@/src/assets/images/easyBorder_screenshot2.png";
+
+import mernBookstoreScreenshot from "@/assets/images/mernBookstore_screenshot.png";
+import gameHubScreenshot from "@/assets/images/gameHub_screenshot.png";
+import expenseTrackerScreenshot from "@/assets/images/expenseTracker_screenshot.png";
+import restaurantScreenshot from "@/assets/images/restaurant_screenshot.png";
+import rockPaperScissorsScreenshot from "@/assets/images/rockPaperScissors_screenshot.png";
+import kreativstormProjectScreenshot from "@/assets/images/kreativstormProject_screenshot.png";
+import weatherProjectScreenshot from "@/assets/images/weatherProject_screenshot.png";
+import easyBorderScreenshot from "@/assets/images/easyBorder_screenshot2.png";
 // next.js
 import { Project } from "../types/project";
 
