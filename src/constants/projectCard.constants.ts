@@ -21,9 +21,9 @@ export const projects: Project[] = [
     alt: "easy border project screenshot",
     siteLink: "https://easyborder-frontend.vercel.app/",
     githubLink: "https://github.com/mark-elias/easyborder-backend",
-    githubLinkTitle: "backend",
+    githubLinkTitle: "Backend",
     secondGithubLink: "https://github.com/mark-elias/easyborder-frontend",
-    secondGithubLinkTitle: "frontend",
+    secondGithubLinkTitle: "Frontend",
     badges: [
       "Nest.js",
       "TypeScript",
