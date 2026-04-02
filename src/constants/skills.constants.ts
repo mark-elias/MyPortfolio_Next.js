@@ -1,5 +1,5 @@
 export const skillCategories = [
-  // 🎯 TIER 1: CORE STACK (What you're hired for)
+  // core stack
   {
     id: "languages",
     name: "Languages",
@@ -21,23 +21,25 @@ export const skillCategories = [
   //   skills: ["Node.js", "Bun.js"],
   // },
 
-  // 🎨 TIER 2: UI & STYLING (Full-stack capability)
+  // ui styling
   {
     id: "css-frameworks",
     name: "CSS & UI",
     skills: ["Tailwind", "Material UI", "shadcn/ui", "Chakra UI"],
   },
 
-  // 💾 TIER 3: DATA MANAGEMENT (Critical for real apps)
+  // databases
   {
     id: "databases",
     name: "Databases",
     skills: ["MongoDB", "MySQL"],
   },
+
+  // global state management
   {
     id: "state-management",
     name: "State Management",
-    skills: ["Redux Toolkit"],
+    skills: ["Zustand", "Redux Toolkit"],
   },
   // {
   //   id: "orms-odms",
@@ -45,7 +47,7 @@ export const skillCategories = [
   //   skills: ["Mongoose", "Prisma"],
   // },
 
-  // 🔌 TIER 4: API & FORMS (Essential full-stack)
+  // apis & forms
   {
     id: "apis-data-fetching",
     name: "APIs & Data Fetching",
@@ -63,7 +65,7 @@ export const skillCategories = [
     skills: ["React-Hook-Form", "Zod"],
   },
 
-  // 🔐 TIER 5: BUSINESS LOGIC (Real-world experience)
+  // auth & payments
   {
     id: "authentication",
     name: "Authentication",
@@ -80,20 +82,20 @@ export const skillCategories = [
     skills: ["WebSockets"],
   },
 
-  // ☁️ TIER 6: CLOUD & DEVOPS (Shows scalability knowledge)
+  // cloud and devops
   {
     id: "cloud-services",
     name: "Cloud Services",
     skills: ["AWS S3", "AWS EC2"],
   },
-   {
-     id: "devops-infrastructure",
-     name: "DevOps & Infrastructure",
-  // skills: ["Docker", "GitHub Actions", "Nginx", "Caddy"],
-skills: ["Docker", "GitHub Actions"],
-   },
+  {
+    id: "devops-infrastructure",
+    name: "DevOps & Infrastructure",
+    // skills: ["Docker", "GitHub Actions", "Nginx", "Caddy"],
+    skills: ["Docker", "GitHub Actions"],
+  },
 
-  // 🛠️ TIER 7: DEVELOPMENT TOOLS (Supporting skills)
+  // dev tools
   {
     id: "version-control",
     name: "Version Control",
@@ -110,12 +112,14 @@ skills: ["Docker", "GitHub Actions"],
     skills: ["Unix/Linux", "Terminal/CLI", "SSH", "Vim", "NVM"],
   },
 
-  // 🚀 TIER 8: DEPLOYMENT & COLLABORATION (Team readiness)
+  // deployment
   {
     id: "deployment",
     name: "Deployment",
     skills: ["Vercel", "Render", "GitHub Pages"],
   },
+
+  // collaboration
   {
     id: "collaboration",
     name: "Collaboration",
@@ -123,7 +127,4 @@ skills: ["Docker", "GitHub Actions"],
   },
 ] as const;
 
-export const skillsToLearn = [
-  "Stripe",
-  "Hono",
-] as const;
+export const skillsToLearn = ["Stripe", "Hono"] as const;
