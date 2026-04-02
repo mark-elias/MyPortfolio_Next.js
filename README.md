@@ -9,6 +9,4 @@ Description:
 
 Future Updates:
 
-- Will add MondoDB database so that I can store the contents for each project remotely
-- I can then use TanStack Query to fetch the data for my projects
--
+- keep updating UI and adding projects
