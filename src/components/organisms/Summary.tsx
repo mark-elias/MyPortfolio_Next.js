@@ -7,7 +7,8 @@ function Summary() {
       <p>{summaryText.summary1}</p>
       <p>{summaryText.summary2}</p>
       <p>{summaryText.summary3}</p>
-      <p className="mt-10">{summaryText.summary4}</p>
+      <p>{summaryText.summary4}</p>
+      <p className="mt-10">{summaryText.summary5}</p>
     </section>
   );
 }
