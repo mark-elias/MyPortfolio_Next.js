@@ -47,9 +47,8 @@ export const experience = [
       "Jira",
     ],
     responsibilities: [
-      "Promoted to Lead Full Stack Developer, leading a team of 10+ developers over time and conducting 13+ technical interviews for intern candidates",
-      "Mentored junior developers through onboarding, code reviews, and one-on-one meetings while establishing team best practices and Git workflows",
-      "Led cross-functional collaboration with UI/UX, AI, DevOps, Marketing teams, and executive leadership to successfully deliver the startup's MVP on schedule",
+      "Promoted from intern to Lead Developer in 6 months, mentoring 7+ developers, establishing best practices and recommended workflows, and conducting 5+ candidate interviews",
+      "Led cross-functional collaboration across UI/UX, AI, DevOps, and Marketing teams to deliver the startup's MVP on schedule",
       "Developed complete workspace invitation system with email integration, including backend APIs for sending HTML email invites and managing invite lifecycle (pending, accepted, archived)",
       "Built comprehensive workspace management UI for inviting teammates, viewing active users, tracking invite statuses, and handling user registration flow for invited users",
       "Built frontend authentication interface (login, registration pages) and integrated with existing backend JWT/cookie-based authorization system",
