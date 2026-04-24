@@ -4,7 +4,7 @@ type BadgeStyle = {
 };
 
 const badgeMaker: { [key: string]: BadgeStyle } = {
-  // Basics
+  // Fundamentals
   CSS: { backgroundColor: "#1572B6", textColor: "#FFFFFF" },
   HTML: { backgroundColor: "#E34F26", textColor: "#FFFFFF" },
 
@@ -12,27 +12,39 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   JavaScript: { backgroundColor: "#F7DF1E", textColor: "#000000" },
   TypeScript: { backgroundColor: "#007ACC", textColor: "#FFFFFF" },
 
+  // ======================= Node Ecosystem ==========
+  "Node.js": { backgroundColor: "#339933", textColor: "#FFFFFF" },
+  "Bun.js": { backgroundColor: "#f472b6", textColor: "#FFFFFF" },
+  // NVM
+  NVM: { backgroundColor: "#339933", textColor: "#FFFFFF" },
+  // Package Managers
+  NPM: { backgroundColor: "#CB3837", textColor: "#FFFFFF" },
+  Yarn: { backgroundColor: "#2C8EBB", textColor: "#FFFFFF" },
+  PNPM: { backgroundColor: "#f9ad00", textColor: "#242526" },
+  Bun: { backgroundColor: "#f472b6", textColor: "#FFFFFF" },
+  
+  // ================= Frameworks ==============================
   // Frontend Frameworks
   React: { backgroundColor: "#61DAFB", textColor: "#000000" },
   "Next.js": { backgroundColor: "#000000", textColor: "#FFFFFF" },
-
-  // Backend & Runtimes
-  "Node.js": { backgroundColor: "#339933", textColor: "#FFFFFF" },
-  "Bun.js": { backgroundColor: "#f472b6", textColor: "#FFFFFF" },
 
   // Backend Frameworks
   "Express.js": { backgroundColor: "#000000", textColor: "#FFFFFF" },
   "Nest.js": { backgroundColor: "#E0234E", textColor: "#FFFFFF" },
   Hono: { backgroundColor: "#E36002", textColor: "#FFFFFF" },
   Fastify: { backgroundColor: "#000000", textColor: "#FFFFFF" },
-
-  // Package Managers
-  NPM: { backgroundColor: "#CB3837", textColor: "#FFFFFF" },
-  Yarn: { backgroundColor: "#2C8EBB", textColor: "#FFFFFF" },
-  PNPM: { backgroundColor: "#f9ad00", textColor: "#242526" },
-  Bun: { backgroundColor: "#f472b6", textColor: "#FFFFFF" },
+  
+  // Mac environment
   Homebrew: { backgroundColor: "#2e2a24", textColor: "#f9d094" },
 
+  // APIs & Data Fetching =====================================
+  "REST API's": { backgroundColor: "#f07f24", textColor: "#FFFFFF" },
+  "API Development": { backgroundColor: "#1e293b", textColor: "#FFFFFF" },
+  "TanStack Query": { backgroundColor: "#FF4154", textColor: "#FFFFFF" },
+  Postman: { backgroundColor: "#FF6C37", textColor: "#FFFFFF" },
+  Axios: { backgroundColor: "#5A29E4", textColor: "#FFFFFF" },
+  
+  // ==================== Frontend ========================
   // CSS
   Tailwind: { backgroundColor: "#06B6D4", textColor: "#FFFFFF" },
   "Material UI": { backgroundColor: "#0081CB", textColor: "#FFFFFF" },
@@ -44,13 +56,6 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   "React-Hook-Form": { backgroundColor: "#EC5990", textColor: "#FFFFFF" },
   Zod: { backgroundColor: "#3f89fd", textColor: "#FFFFFF" },
   Joi: { backgroundColor: "#0A8A94", textColor: "#FFFFFF" },
-
-  // APIs & Data Fetching
-  "REST API's": { backgroundColor: "#f07f24", textColor: "#FFFFFF" },
-  "API Development": { backgroundColor: "#1e293b", textColor: "#FFFFFF" },
-  "TanStack Query": { backgroundColor: "#FF4154", textColor: "#FFFFFF" },
-  Postman: { backgroundColor: "#FF6C37", textColor: "#FFFFFF" },
-  Axios: { backgroundColor: "#5A29E4", textColor: "#FFFFFF" },
 
   // Global State Management
   Zustand: { backgroundColor: "#F0A500", textColor: "#FFFFFF" },
@@ -88,27 +93,32 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
   "GitHub Pages": { backgroundColor: "#181717", textColor: "#FFFFFF" },
 
   // Cloud Services & Tools
-  "AWS": { backgroundColor: "#FF9900", textColor: "#000000" },
+  AWS: { backgroundColor: "#FF9900", textColor: "#000000" },
   "AWS S3": { backgroundColor: "#FF9900", textColor: "#000000" },
   "AWS EC2": { backgroundColor: "#FF9900", textColor: "#000000" },
 
   // Real-time Communication
   WebSockets: { backgroundColor: "#010101", textColor: "#FFFFFF" },
 
-  // Development Environment
+  // Linux & Server Administration
   Linux: { backgroundColor: "#FCC624", textColor: "#000000" },
   "Unix/Linux": { backgroundColor: "#FCC624", textColor: "#000000" },
   "Terminal/CLI": { backgroundColor: "#2C3E50", textColor: "#FFFFFF" },
   SSH: { backgroundColor: "#E74C3C", textColor: "#FFFFFF" },
   Vim: { backgroundColor: "#019733", textColor: "#FFFFFF" },
-  NVM: { backgroundColor: "#339933", textColor: "#FFFFFF" },
 
   // DevOps & Infrastructure
   Docker: { backgroundColor: "#2496ED", textColor: "#FFFFFF" },
+  "Docker Compose": { backgroundColor: "#2496ED", textColor: "#FFFFFF" },
   "GitHub Actions": { backgroundColor: "#2088FF", textColor: "#FFFFFF" },
   Nginx: { backgroundColor: "#009639", textColor: "#FFFFFF" },
   Caddy: { backgroundColor: "#00C4A7", textColor: "#FFFFFF" },
   PM2: { backgroundColor: "#2B7CFC", textColor: "#FFFFFF" },
+  
+  // Networking & Security
+  SSL: { backgroundColor: "#010101", textColor: "#FFFFFF" },
+  DNS: { backgroundColor: "#010101", textColor: "#FFFFFF" },
+  CORS: { backgroundColor: "#010101", textColor: "#FFFFFF" },
 
   // Collaboration
   Figma: { backgroundColor: "#8B5CF6", textColor: "#FFFFFF" },
@@ -117,7 +127,7 @@ const badgeMaker: { [key: string]: BadgeStyle } = {
 };
 
 export const useBadgeMaker = (
-  badges: readonly string[]
+  badges: readonly string[],
 ): { name: string; styles: BadgeStyle }[] => {
   const badgeStyles: { name: string; styles: BadgeStyle }[] = [];
 

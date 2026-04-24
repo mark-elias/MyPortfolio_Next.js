@@ -1,69 +1,46 @@
 export const skillCategories = [
-  // core stack
+  // fundamentals
+  {
+    id: "fundamentals",
+    name: "Fundamentals",
+    skills: ["HTML", "CSS"],
+  },
+  // core language
   {
     id: "languages",
     name: "Languages",
     skills: ["TypeScript", "JavaScript"],
   },
-  // // runtimes
-  // {
-  //   id: "runtimes",
-  //   name: "Runtimes",
-  //   skills: ["Node.js", "Bun.js"],
-  // },
+  // // Node.js Ecosystem
   {
-    id: "frontend-frameworks",
-    name: "Frontend",
-    skills: ["React", "Next.js"],
+    id: "Node Ecosystem",
+    name: "Node Ecosystem",
+    skills: ["Node.js", "NVM", "NPM", "Yarn", "PNPM", "Bun.js"],
   },
-  {
-    id: "backend-frameworks",
-    name: "Backend",
-    skills: ["Nest.js", "Express.js", "Node.js", "Bun.js"],
-  },
-  // databases
-  {
-    id: "databases",
-    name: "Databases",
-    skills: ["MongoDB", "MySQL"],
-  },
-
-  // apis
-  {
-    id: "apis-data-fetching",
-    name: "APIs & Data Fetching",
-    skills: [
-      "REST API's",
-      "API Development",
-      "TanStack Query",
-      "Axios",
-      "Postman",
-    ],
-  },
-  // auth
-  {
-    id: "authentication",
-    name: "Authentication",
-    skills: ["JWT", "Passport.js", "Cookies"],
-  },
-  // cloud and devops
-  {
-    id: "cloud-services",
-    name: "Cloud Services",
-    skills: ["AWS EC2", "AWS S3"],
-  },
-
-  // devops
-  {
-    id: "devops-infrastructure",
-    name: "DevOps & Infrastructure",
-    // skills: ["Docker", "GitHub Actions", "Nginx", "Caddy"],
-    skills: ["Docker", "GitHub Actions", "SSH", "NVM"],
-  },
+  // Version Control
   {
     id: "version-control",
     name: "Version Control",
     skills: ["Git", "GitHub"],
+  },
+  // package managers
+  // {
+  //   id: "package-managers",
+  //   name: "Package Managers",
+  //   skills: ["Yarn", "NPM", "PNPM", "Bun"],
+  // },
+
+  // ===== FRAMEWORKS
+  {
+    id: "frontend-frameworks",
+    name: "Frontend Frameworks",
+    skills: ["React", "Next.js"],
+  },
+  // CSS & UI
+  {
+    id: "css-frameworks",
+    name: "CSS & UI",
+    skills: ["Tailwind", "shadcn/ui", "Material UI"],
   },
   // global state management
   {
@@ -78,12 +55,62 @@ export const skillCategories = [
     skills: ["React-Hook-Form", "Zod"],
   },
 
-  // ui styling
   {
-    id: "css-frameworks",
-    name: "CSS & UI",
-    skills: ["Tailwind", "Material UI", "shadcn/ui", "Chakra UI"],
+    id: "backend-frameworks",
+    name: "Backend Frameworks",
+    skills: ["Nest.js", "Express.js"],
   },
+  // databases
+  {
+    id: "databases",
+    name: "Databases",
+    skills: ["MongoDB", "MySQL"],
+  },
+  // auth
+  {
+    id: "authentication",
+    name: "Authentication",
+    skills: ["JWT", "Passport.js", "Cookies"],
+  },
+  // apis
+  {
+    id: "apis-data-fetching",
+    name: "APIs & Data Fetching",
+    skills: ["API Development", "TanStack Query", "Postman"],
+  },
+
+  
+  
+  
+  
+  
+  
+  // cloud and infrastructure
+  {
+    id: "cloud-and-infrastructure",
+    name: "Cloud & Infrastructure",
+    skills: ["AWS EC2", "AWS S3"],
+  },
+  // devops and ci/cd
+  {
+    id: "devops-and-ci-cd",
+    name: "DevOps & CI/CD",
+    skills: ["Docker", "Docker Compose", "GitHub Actions"],
+  },
+  // linux & server admin
+  {
+    id: "linux-and-server-admin",
+    name: "Linux & Server Administration",
+    skills: ["Unix/Linux", "Terminal/CLI", "SSH", "Vim"],
+  },
+  // networking & security
+  {
+    id: "networking-and-security",
+    name: "Networking & Security",
+    skills: ["Nginx", "SSL", "DNS", "CORS"],
+  },
+
+ 
 
   // {
   //   id: "orms-odms",
@@ -97,30 +124,20 @@ export const skillCategories = [
   //   name: "Payments",
   //   skills: ["Stripe"],
   // },
-  {
-    id: "real-time-communication",
-    name: "Real-time Communication",
-    skills: ["WebSockets"],
-  },
 
-  // dev tools
-  {
-    id: "package-managers",
-    name: "Package Managers",
-    skills: ["Yarn", "NPM", "PNPM", "Bun"],
-  },
+  // Real Time Coummication
   // {
-  //   id: "linux-and-environment",
-  //   name: "Linux & Server Environment",
-  //   skills: ["Unix/Linux", "Terminal/CLI", "SSH", "NVM"],
+  //   id: "real-time-communication",
+  //   name: "Real-time Communication",
+  //   skills: ["WebSockets"],
   // },
 
   // deployment
-  {
-    id: "deployment",
-    name: "Deployment",
-    skills: ["Vercel", "Render", "GitHub Pages"],
-  },
+  // {
+  //   id: "deployment",
+  //   name: "Deployment",
+  //   skills: ["Vercel", "Render", "GitHub Pages"],
+  // },
 
   // collaboration
   {
