@@ -1,5 +1,12 @@
 export const certificates = [
   {
+    id: "docker",
+    title: "The Ultimate Docker Course",
+    issuer: "Code with Mosh",
+    credentialId: "cert_tcq11kh6",
+    borderColor: "#2496ED",
+  },
+  {
     id: "nextjs-typescript",
     title: "Mastering Next.js 13 with TypeScript",
     issuer: "Code With Mosh",
@@ -19,13 +26,6 @@ export const certificates = [
     issuer: "Code With Mosh",
     credentialId: "cert_pp71231f",
     borderColor: "#F7DF1E", // JavaScript yellow
-  },
-  {
-    id: "kreativstorm-training",
-    title: "Kreativstorm Hands-on Training Program",
-    issuer: "Kreativstorm",
-    credentialId: "c249c7ff-3798-4d27-8644-c528acecb224",
-    borderColor: "#5A29E4", // Purple
   },
   {
     id: "web-development-intro",
