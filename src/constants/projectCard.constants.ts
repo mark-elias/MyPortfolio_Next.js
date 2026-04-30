@@ -19,7 +19,7 @@ export const projects: Project[] = [
       "COMING SOON. Border wait times app where users can post comments and share images with other users about their border wait experience. Will be built with Nest.js on the backend with AWS S3 for image uploads. Authentication with Passport.js and JWT. Next.js and Tailwind for the frontend. TanStack Query for data fetching and Zustand for Global State Management. Will be hosted on AWS EC2 with continuous deployment using Docker and GitHub Actions.",
     image: easyBorderScreenshot,
     alt: "easy border project screenshot",
-    siteLink: "https://easyborder-frontend.vercel.app/",
+    siteLink: "https://easyborder.io",
     githubLink: "https://github.com/mark-elias/easyborder-backend",
     githubLinkTitle: "Backend",
     secondGithubLink: "https://github.com/mark-elias/easyborder-frontend",
