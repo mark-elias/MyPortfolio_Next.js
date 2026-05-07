@@ -1,5 +1,12 @@
 export const certificates = [
   {
+    id: "typescript",
+    title: "The Ultimate TypeScript Course",
+    issuer: "Code with Mosh",
+    credentialId: "cert_27tfspv9",
+    borderColor: "#007ACC",
+  },
+  {
     id: "docker",
     title: "The Ultimate Docker Course",
     issuer: "Code with Mosh",
